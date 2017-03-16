@@ -57,6 +57,10 @@ $class: 'home';
   // width provider by this container break the rest of the
   // content on new line
   flex-wrap: wrap;
+
+  // set the items that break on new lines to be align center
+  // it's very similar to text-align: center
+  justify-content: center;
 }
 
 .#{$class}-title {
