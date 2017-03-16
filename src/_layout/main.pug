@@ -1,7 +1,18 @@
 doctype html
 html
   head
+    //- site.data.resume.page.pageTitle is equal to
+    //- src, _data, resume.json, page, pageTitle
     title #{site.data.resume.page.pageTitle}
+
+    //- grab the pageDescription from src, _data, resume.json,
+    //- page and insert it into meta description for SEO
     meta(name="description", content=site.data.resume.page.pageDescription)
+
+    //- style.scss will be compiled into style.css
+    //- so we make use of it below
+    if config.entry.css.external
+      link(rel="stylesheet", href="style.css")
   body
-    block content
+    .container
+      block content
