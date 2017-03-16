@@ -23,6 +23,19 @@ $class: 'home';
   font-size: 5rem;
 }
 
+.#{$class}-item {
+  padding: 0.5rem 0.8rem;
+}
+
+.#{$class}-link {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.#{$class}-social {
+  display: inline-flex;
+}
+
 .#{$class}-title {
   @extend %uppercase;
   font-size: 2rem;
