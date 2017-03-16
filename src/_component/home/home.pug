@@ -6,4 +6,6 @@
     h2.home-title #{resume.author.title}
     ul
       li
-        span.resume-icon-google-plus2
+        each social in resume.author.social
+          a(href=social.url)
+            span(class='resume-icon-'+ social.icon)

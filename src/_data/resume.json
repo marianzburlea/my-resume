@@ -5,6 +5,16 @@
   },
   "author": {
     "name": "Marian Zburlea",
-    "title": "Web Developer"
+    "title": "Web Developer",
+    "social": [
+      {
+        "icon": "google-plus2",
+        "url": "https://plus.google.com/+ZburleaMarian"
+      },
+      {
+        "icon": "facebook2",
+        "url": "https://www.facebook.com/marianzburlea"
+      }
+    ]
   }
 }
