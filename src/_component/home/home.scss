@@ -31,6 +31,7 @@ $class: 'home';
   @extend %uppercase;
   font-size: 5rem;
   font-family: 'Open Sans';
+  font-weight: bold;
 }
 
 .#{$class}-item {

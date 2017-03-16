@@ -10,10 +10,15 @@
       //- resume.author.social collection and the "social"
       //- variable present after the word "each" will take
       //- as value each of the entities present in the collection
-      each social in resume.author.social
+      each social, key in resume.author.social
         //- The block composed of li, a and span tag will be
         //- repeated as many times as the resume.author.collection
         //- length is, making code easier to mantain and less debugging
         li.home-item
-          a.home-link(href=social.url)
+          label.home-link(for='message-box-id-'+key)
             span(class='resume-icon-'+ social.icon)
+
+    //- We've also created a subcomponent of home compoenent,
+    //- since we want to avoid creating too long files and
+    //- increase efficiency in building and maintaining a project.
+    include home-message-box

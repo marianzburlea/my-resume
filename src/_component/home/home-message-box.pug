@@ -1,0 +1,26 @@
+//- We've built the HTML structure and we'll have some fun
+//- using "CSS tricks" and create an awesome user interaction
+//- experience, something we can be proud of doing.
+//- so far we've built pairs of label and input tags.
+//- Those pairs are linked once the label for attribute value
+//- is equal with the input id attribute value. 
+//- Note: Multiple labels can target the same input.
+//- Example <input type="radio" id="myCustomUniqueId" />
+//-         <label for="myCustomUniqueId">Label text</label>
+//- To discover the rest of this technique, you'll have to continue
+//- reading the CSS counterpart of this component.
+//- Before doing that in the next commit, I'll invite you to
+//- play a bit clicking on the social media icons and observe
+//- the input tags turning into a "checked" state. The key of
+//- this trick is to remember the "checked" state and how it works.
+.home-message-box
+  .home-message-body
+    input(type="radio", name="message-box", id="message-default", checked)
+    //- the default message when no social media is selected
+    .home-message Click the above icons to reveal
+    each social, key in resume.author.social
+      input(type="radio", name="message-box", id='message-box-id-'+key)
+      .home-message
+        //- using target attribute with _blank value
+        //- will open the link in a new tab
+        a(href=social.url, target="_blank") #{social.url}

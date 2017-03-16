@@ -6,6 +6,8 @@ html {
 }
 
 html, body {
+  // To set the height of a future element in percentage
+  // like 100%, all parent elements must have a height defined.
   height: 100%;
 }
 
