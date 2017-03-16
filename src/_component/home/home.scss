@@ -20,6 +20,7 @@ $class: 'home';
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: radial-gradient(ellipse, $color-manatee, $color-fiord);
 }
 
 .#{$class}-wrapper {
@@ -35,13 +36,14 @@ $class: 'home';
   // we create some spacing between list items using padding
   // the first value will apply to padding-top and padding-bottom
   // the second value will appply to padding-right and padding-left
-  padding: 0.5rem 0.8rem;
+  padding: 0.1rem 0.3rem;
 }
 
 .#{$class}-link {
-  font-size: 3rem;
+  font-size: 1.8rem;
   // Remove the default underline present in anchor tags
   text-decoration: none;
+  color: $color-white;
 }
 
 .#{$class}-social {
@@ -57,6 +59,7 @@ $class: 'home';
   // width provider by this container break the rest of the
   // content on new line
   flex-wrap: wrap;
+  margin-top: 3rem;
 
   // set the items that break on new lines to be align center
   // it's very similar to text-align: center
