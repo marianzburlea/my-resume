@@ -2,5 +2,9 @@
   "page": {
     "pageTitle": "Welcome to my awesome resume!",
     "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
+  },
+  "author": {
+    "name": "Marian Zburlea",
+    "title": "Web Developer"
   }
 }
