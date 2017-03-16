@@ -1,6 +1,7 @@
 doctype html
 html
   head
-    title My awesome resume
+    title #{site.data.resume.page.pageTitle}
+    meta(name="description", content=site.data.resume.page.pageDescription)
   body
     block content

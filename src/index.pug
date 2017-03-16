@@ -1,4 +1,6 @@
 //- Extend index.pug with the main layout
 extends _layout/main
+
 block content
-  h1 Welcome to my awesome resume
+  - var resume = site.data.resume;
+  h1 #{resume.page.pageTitle}
