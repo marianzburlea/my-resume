@@ -1,11 +1,19 @@
 {
+  "//": "The value of the page property is an object that contains",
+  "//": "the page title and description. Those will be used to set",
+  "//": "the page title tag and meta description for SEO purpose",
   "page": {
-    "pageTitle": "Welcome to my awesome resume!",
+    "pageTitle": "resume Marian Zburlea",
     "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
   },
   "author": {
     "name": "Marian Zburlea",
     "title": "Web Developer",
+    "//": "There is no way to create comments in a JSON file and this is close enough",
+    "//": "The 'social' property value is an array of objects,",
+    "//": "a collection of objects, and each object has two properties,",
+    "//": "an icon and an url. The collection and Those properties",
+    "//": "will be used to generate the social media link bar.",
     "social": [
       {
         "icon": "google-plus2",
