@@ -5,7 +5,15 @@
     h1.home-name #{resume.author.name}
     h2.home-title #{resume.author.title}
     ul.home-social
+      //- using each social in resume.author.social means
+      //- that we'll iterate (go through one by one) over
+      //- resume.author.social collection and the "social"
+      //- variable present after the word "each" will take
+      //- as value each of the entities present in the collection
       each social in resume.author.social
+        //- The block composed of li, a and span tag will be
+        //- repeated as many times as the resume.author.collection
+        //- length is, making code easier to mantain and less debugging
         li.home-item
           a.home-link(href=social.url)
             span(class='resume-icon-'+ social.icon)
