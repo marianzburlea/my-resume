@@ -14,6 +14,30 @@
       {
         "icon": "facebook2",
         "url": "https://www.facebook.com/marianzburlea"
+      },
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/marianzburlea"
+      },
+      {
+        "icon": "youtube",
+        "url": "https://www.youtube.com/user/zeusul"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/marianzburlea"
+      },
+      {
+        "icon": "skype",
+        "url": "skype:marianzburlea?call"
+      },
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/marianzburlea/"
+      },
+      {
+        "icon": "html-five",
+        "url": "http://bitbee.uk"
       }
     ]
   }
