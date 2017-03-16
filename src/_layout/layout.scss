@@ -1,5 +1,10 @@
 @import 'reset';
 
+// use fluid typography
+html {
+  font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
+}
+
 html, body {
   height: 100%;
 }
