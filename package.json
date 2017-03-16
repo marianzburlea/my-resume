@@ -1,0 +1,77 @@
+{
+  "name": "pug-starter",
+  "version": "1.0.0",
+  "description": "Simple pug (jade) starter [framework] enabling faster delivery of HTML & CSS projects to a private server and/or automatic deployment of GitHub pages.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "prod": "gulp build --production",
+    "deploy": "gulp build --production && gulp deploy && gulp clean:ghpages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "//": "CUSTOM CONFIGURATION",
+  "config": {
+    "directory": {
+      "development": "tmp",
+      "production": "build",
+      "ghpages": ".publish",
+      "source": "src",
+      "data": "_data",
+      "component": "_component",
+      "asset": "_asset",
+      "image": "image",
+      "font": "font"
+    },
+    "entry": {
+      "cssExternal": "style**.{scss,sass}",
+      "cssInline": "inline**.{scss,sass}",
+      "css": {
+        "inline": true,
+        "external": true
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianzburlea/pug-starter.git"
+  },
+  "keywords": [
+    "pug",
+    "starter",
+    "jade",
+    "starter"
+  ],
+  "author": "Marian Zburlea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marianzburlea/pug-starter/issues"
+  },
+  "homepage": "https://github.com/marianzburlea/pug-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.5",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "browser-sync": "^2.18.8",
+    "eslint": "^3.16.1",
+    "foldero": "^0.1.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^2.0.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inline-source": "^3.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.3.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "imagemin-pngquant": "^5.0.0",
+    "imagemin-svgo": "^5.2.0",
+    "minimist": "^1.2.0"
+  }
+}
