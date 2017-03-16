@@ -30,6 +30,7 @@ $class: 'home';
 .#{$class}-name {
   @extend %uppercase;
   font-size: 5rem;
+  font-family: 'Open Sans';
 }
 
 .#{$class}-item {
@@ -48,7 +49,6 @@ $class: 'home';
 
 .#{$class}-social {
   // the ul tag has 100% width. we use display inline-flex
-  // so the container no longer breaks on new line
   display: inline-flex;
 
   // we use max-width 80 viewport width which means
@@ -69,4 +69,5 @@ $class: 'home';
 .#{$class}-title {
   @extend %uppercase;
   font-size: 2rem;
+  font-family: 'Open Sans';
 }
