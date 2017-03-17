@@ -1,5 +1,14 @@
 @import 'reset';
 
+* {
+  // set the border size to box
+  box-sizing: border-box;
+}
+
+body {
+  // Set the open sans font for all elements
+  font-family: 'Open Sans';
+}
 // use fluid typography
 html {
   font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
