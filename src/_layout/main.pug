@@ -12,6 +12,10 @@ html
 
     //- style.scss will be compiled into style.css
     //- so we make use of it below
+    //- the value of config.entry.css.external can be found in package.json
+    //- and you can navigate to the "config" property, down to "entry", and
+    //- into "css" and finally to "external" and find the value to be "true"
+    //- or "false"
     if config.entry.css.external
       link(rel="stylesheet", href="style.css")
   body
