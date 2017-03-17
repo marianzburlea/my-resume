@@ -24,13 +24,19 @@
 
 $class: 'home-message';
 
-.#{$class}-radio + .home-message {
+.#{$class}-radio + .#{$class} {
   // Hide all .home-message that follow as sibling
   // an input type radio with checked state as false
   display: none;
 }
 
-.#{$class}-radio:checked + .home-message {
+#message-default.#{$class}-radio:checked + .#{$class} + .#{$class}-box-header {
+  // Hide all .home-message that follow as sibling
+  // an input type radio with checked state as false
+  display: none;
+}
+
+.#{$class}-radio:checked + .#{$class} {
   // Change display state of the .home-message from
   // hidden to show based on the checked state true
   // of the input type radio
@@ -55,6 +61,10 @@ input.#{$class}-radio[type=radio] {
   padding: 0.8rem;
   // and enough space on top of it away from social box
   margin-top: 0.5rem;
+
+  // Set the position to relative so the child(ren) that have
+  // position: absolute will be bound to this container.
+  position: relative;
 }
 
 // Hide the input type radio elements
@@ -64,4 +74,67 @@ input.#{$class}-radio[type=radio] {
   // Remove the default underline present in anchor tags
   text-decoration: none;
   color: $color-white;
+}
+
+// Make use of position: relative and position: absolute CSS trick
+// This box will look for the first parent that has position relative
+// or absolute and be bound to it. It'll look from the first parent,
+// going up until it reaches the body. If none is found it stops at body.
+// Once it finds it, its top, bottom, left and right will be influenced
+// by the box of the parent it found and binded to it.
+// Imagine this box:
+// --------------------------------------------------
+// |    <div style="position: absolute"></div>      |
+// --------------------------------------------------
+// The div inside the box will be trapped inside those borders
+// unless negative top, bottom, left or right will be specified.
+.#{$class}-box-header {
+  // This position absolute goes hand in hand with position relative
+  // of the first found parent
+  position: absolute;
+  // and the width is set to 80% of the parent contaner
+  // 100% - 10% - 10% = 80%
+  left: 10%;
+  right: 10%;
+  // and it'll be positioned starting at the bottom of the parent container
+  // since top: 100% will move it away from the top and towards the bottom
+  // by 100% height of the parent.
+  top: 100%;
+
+  // Display flex will make the content behave like inline elements
+  display: flex;
+  // and set the corners to be rounded, just the bottom left and right ones.
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.#{$class}-box-close,
+.#{$class}-box-info {
+  // set some distance between text and borders
+  // to make the text more readable
+  padding: 0.4rem;
+  // and set the background to white
+  background-color: $color-white;
+}
+
+.#{$class}-box-info {
+  // stretch this box to the available width
+  width: 100%;
+  // and set the botto left corner to be rounder
+  border-bottom-left-radius: 0.4rem;
+
+  // and don't allow text to break on new line
+  white-space: nowrap;
+  // and hide the text that flows outside the available width
+  overflow-x: hidden;
+  // and dispaly three dots to let the user know there is more hidden content
+  text-overflow: ellipsis;
+}
+
+.#{$class}-box {
+  margin-bottom: 3rem;
+}
+
+.#{$class}-box-close {
+  border-bottom-right-radius: 0.4rem;
 }
