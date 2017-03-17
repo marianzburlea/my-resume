@@ -1,0 +1,67 @@
+// CSS TRICK - part 2
+// This trick works by making use of the change state
+// of the input type radio and the next sibling CSS selector "+"
+// Example:
+//   This will target all unchecked input elements with class .my-input
+//   .my-input { margin-left: 10px; }
+//   This will target all checked input elements with class .my-input
+//   .my-input:checked { margin-left: 20px; }
+// input type radio elements can be grouped by using
+// the name attribute with the same value, thus ensuring
+// only one input can be checked at one time
+// HTML example of an input and its sibling
+//   <input type="radio" id="myCustomUniqueId" />
+//   <p>Label text</p>
+//   #myCustomUniqueId:checked + p { color: blue }
+// The example above will make the text content inside the paragraph
+// tag of color bluewhen the input #myCustomUniqueId is checked.
+//
+// Summary:
+// 1. The label linked to the input changes the state of
+// the input when clicked
+// 2. The next sibling of the input can be targeted with
+// different CSS rules based on the checked state of the input
+
+$class: 'home-message';
+
+.#{$class}-radio + .home-message {
+  // Hide all .home-message that follow as sibling
+  // an input type radio with checked state as false
+  display: none;
+}
+
+.#{$class}-radio:checked + .home-message {
+  // Change display state of the .home-message from
+  // hidden to show based on the checked state true
+  // of the input type radio
+  display: inherit;
+}
+
+// Hide the input type radio elements to clean interface
+input.#{$class}-radio[type=radio] {
+  display: none;
+}
+
+// Create a rounded corners rectangle
+.#{$class}-body {
+  // That doesn't break on new line
+  display: inline-block;
+
+  // With white border
+  border: 0.2rem solid $color-white;
+  // that has rounded corners
+  border-radius: 0.5rem;
+  // and enough clear space between border and text content
+  padding: 0.8rem;
+  // and enough space on top of it away from social box
+  margin-top: 0.5rem;
+}
+
+// Hide the input type radio elements
+.#{$class}-link,
+.#{$class}-link:visited {
+  font-size: 1.4rem;
+  // Remove the default underline present in anchor tags
+  text-decoration: none;
+  color: $color-white;
+}

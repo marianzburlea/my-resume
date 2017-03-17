@@ -1,3 +1,4 @@
+@import 'home-message-box';
 // Introduce $class variable to hold the value
 // of the prefix of all css classes in this file
 // Examples:
@@ -46,6 +47,11 @@ $class: 'home';
   // Remove the default underline present in anchor tags
   text-decoration: none;
   color: $color-white;
+
+  &:active,
+  &:focus {
+    color: $color-fiord;
+  }
 }
 
 .#{$class}-social {
