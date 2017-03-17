@@ -110,6 +110,8 @@ input.#{$class}-radio[type=radio] {
 
 .#{$class}-box-close,
 .#{$class}-box-info {
+  @extend %noselect;
+
   // set some distance between text and borders
   // to make the text more readable
   padding: 0.4rem;
@@ -137,4 +139,5 @@ input.#{$class}-radio[type=radio] {
 
 .#{$class}-box-close {
   border-bottom-right-radius: 0.4rem;
+  cursor: pointer;
 }
