@@ -142,6 +142,24 @@ input.#{$class}-radio[type=radio] {
   line-height: 1.5rem;
 }
 
+// Since we are using position absolute for home-message-box-header,
+// this means the element is behaving like it's no longer present in the
+// dom, so the parent container no longer knows about it and finishes
+// the vertical height a bit earlier, the result looks like the box bleeds
+// into the next section:
+// -- Parent container -----------------
+// |                                   |
+// |   --- Child pos: absolute ---     |
+// |   |                         |     |
+// ----|-------------------------|------
+// -- Next container (section)---|------
+// |   |                         |     |
+// |   |                         |     |
+// |   ---------------------------     |
+// |                                   |
+// By using the margin bottom we move the parent container
+// bottom so the .home-message-box-header looks visually that
+// it's inside the parent container
 .#{$class}-box {
   margin-bottom: 3rem;
 }
