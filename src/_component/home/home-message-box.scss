@@ -22,65 +22,65 @@
 // 2. The next sibling of the input can be targeted with
 // different CSS rules based on the checked state of the input
 
-$class:                           'home-message';
+$class: 'home-message';
 
 .#{$class} {
   // Set the .home-message text colour to white
   // to increase readability
-  color:                          $color-white;
+  color: $color-white;
 }
 
 .#{$class}-radio + .#{$class} {
   // Hide all .home-message that follow as sibling
   // an input type radio with checked state as false
-  display:                        none;
+  display: none;
 }
 
-#message-default.#{$class}-radio: checked + .#{$class} + .#{$class}-box-header {
+#message-default.#{$class}-radio:checked + .#{$class} + .#{$class}-box-header {
   // Hide all .home-message that follow as sibling
   // an input type radio with checked state as false
-  display:                        none;
+  display: none;
 }
 
-.#{$class}-radio:                 checked + .#{$class} {
+.#{$class}-radio:checked + .#{$class} {
   // Change display state of the .home-message from
   // hidden to show based on the checked state true
   // of the input type radio
-  display:                        inherit;
+  display: inherit;
 }
 
 // Hide the input type radio elements to clean interface
 input.#{$class}-radio[type=radio] {
-  display:                        none;
+  display: none;
 }
 
 // Create a rounded corners rectangle
 .#{$class}-body {
   // That doesn't break on new line
-  display:                        inline-block;
+  display: inline-block;
 
   // With white border
-  border:                         0.2rem solid $color-white;
+  border: 0.2rem solid $color-white;
   // that has rounded corners
-  border-radius:                  0.5rem;
+  border-radius: 0.5rem;
   // and enough clear space between border and text content
-  padding:                        0.8rem;
+  padding: 0.8rem;
   // and enough space on top of it away from social box
-  margin-top:                     0.5rem;
+  margin-top: 0.5rem;
 
   // Set the position to relative so the child(ren) that have
   // position: absolute will be bound to this container.
-  position:                       relative;
+  position: relative;
 }
 
 // Hide the input type radio elements
 .#{$class}-link,
-.#{$class}-link:                  visited {
-  font-size:                      1.4rem;
+.#{$class}-link:visited {
+  font-size: 1.4rem;
   // Remove the default underline present in anchor tags
-  text-decoration:                none;
+  text-decoration: none;
   // and set the text colour to white
-  color:                          $color-white;
+  color: $color-white;
 }
 
 // Make use of position: relative and position: absolute CSS trick
@@ -98,21 +98,21 @@ input.#{$class}-radio[type=radio] {
 .#{$class}-box-header {
   // This position absolute goes hand in hand with position relative
   // of the first found parent
-  position:                       absolute;
+  position: absolute;
   // and the width is set to 80% of the parent contaner
   // 100% - 10% - 10% = 80%
-  left:                           10%;
-  right:                          10%;
+  left: 10%;
+  right: 10%;
   // and it'll be positioned starting at the bottom of the parent container
   // since top: 100% will move it away from the top and towards the bottom
   // by 100% height of the parent.
-  top:                            100%;
+  top: 100%;
 
   // Display flex will make the content behave like inline elements
-  display:                        flex;
+  display: flex;
   // and set the corners to be rounded, just the bottom left and right ones.
-  border-bottom-right-radius:     0.5rem;
-  border-bottom-left-radius:      0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .#{$class}-box-close,
@@ -121,25 +121,25 @@ input.#{$class}-radio[type=radio] {
 
   // set some distance between text and borders
   // to make the text more readable
-  padding:                        0.4rem;
+  padding: 0.4rem;
   // and set the background to white
-  background-color:               $color-white;
+  background-color: $color-white;
 }
 
 .#{$class}-box-info {
   // stretch this box to the available width
-  width:                          100%;
+  width: 100%;
   // and set the botto left corner to be rounder
-  border-bottom-left-radius:      0.4rem;
+  border-bottom-left-radius: 0.4rem;
 
   // and don't allow text to break on new line
-  white-space:                    nowrap;
+  white-space: nowrap;
   // and hide the text that flows outside the available width
-  overflow-x:                     hidden;
+  overflow-x: hidden;
   // and dispaly three dots to let the user know there is more hidden content
-  text-overflow:                  ellipsis;
+  text-overflow: ellipsis;
   // set text to be centered vertically in its container using line-height
-  line-height:                    1.5rem;
+  line-height: 1.5rem;
 }
 
 // Since we are using position absolute for home-message-box-header,
@@ -161,20 +161,20 @@ input.#{$class}-radio[type=radio] {
 // bottom so the .home-message-box-header looks visually that
 // it's inside the parent container
 .#{$class}-box {
-  margin-bottom:                  3rem;
+  margin-bottom: 3rem;
 }
 
 .#{$class}-box-close {
   // Match the parent container round corner
   // and use a smaller value to reduce bleeding
-  border-bottom-right-radius:     0.4rem;
+  border-bottom-right-radius: 0.4rem;
 
   // Set the cursor to pointer so desktop users
   // will see a hand that suggests interaction is possible
-  cursor:                         pointer;
+  cursor: pointer;
 
   // Make the action call area (the area that you can tap/click)
   // bigger to increase usability
-  width:                          2.5rem;
-  font-size:                      1.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
 }
