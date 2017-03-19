@@ -24,6 +24,12 @@
 
 $class: 'home-message';
 
+.#{$class} {
+  // Set the .home-message text colour to white
+  // to increase readability
+  color: $color-white;
+}
+
 .#{$class}-radio + .#{$class} {
   // Hide all .home-message that follow as sibling
   // an input type radio with checked state as false
@@ -73,6 +79,7 @@ input.#{$class}-radio[type=radio] {
   font-size: 1.4rem;
   // Remove the default underline present in anchor tags
   text-decoration: none;
+  // and set the text colour to white
   color: $color-white;
 }
 
@@ -131,6 +138,8 @@ input.#{$class}-radio[type=radio] {
   overflow-x: hidden;
   // and dispaly three dots to let the user know there is more hidden content
   text-overflow: ellipsis;
+  // set text to be centered vertically in its container using line-height
+  line-height: 1.5rem;
 }
 
 .#{$class}-box {
@@ -140,4 +149,9 @@ input.#{$class}-radio[type=radio] {
 .#{$class}-box-close {
   border-bottom-right-radius: 0.4rem;
   cursor: pointer;
+
+  // Make the action call area (the area that you can tap/click)
+  // bigger to increase usability
+  width: 2.5rem;
+  font-size: 1.5rem;
 }
