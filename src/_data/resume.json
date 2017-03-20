@@ -7,6 +7,37 @@
     "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
   },
   "section": {
+    "about": {
+      "title": "About me",
+      "content": [
+        {
+          "type": "avatar",
+          "url": "/asset/image/marian-zburea-avatar.jpg"
+        },
+        {
+          "type": "text",
+          "title": "Marian Zburlea",
+          "text": [
+            "I translate geek into English and I’m a problem solver driven by challenge. Work is my passion and I focus on innovation and design for the future."
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Awards",
+          "text": [
+            "2014, BEST 30S ELEVATOR SPEED SPEECH Google Plex meeting – London, UK",
+            "2001, BEST WEB SITE FOR PRESIDENT ELECTIONS - Constanta / Romania"
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Achievement",
+          "text": [
+            "Build custom SEO CMS that boosted search results position in Google's first places for tens of clients and their websites."
+          ]
+        }
+      ]
+    },
     "home": {
       "author": {
         "name": "Marian Zburlea",
