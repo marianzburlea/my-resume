@@ -24,6 +24,12 @@
 
 $class: 'home-message';
 
+.#{$class} {
+  // Set the .home-message text colour to white
+  // to increase readability
+  color: $color-white;
+}
+
 .#{$class}-radio + .#{$class} {
   // Hide all .home-message that follow as sibling
   // an input type radio with checked state as false
@@ -73,6 +79,7 @@ input.#{$class}-radio[type=radio] {
   font-size: 1.4rem;
   // Remove the default underline present in anchor tags
   text-decoration: none;
+  // and set the text colour to white
   color: $color-white;
 }
 
@@ -131,13 +138,43 @@ input.#{$class}-radio[type=radio] {
   overflow-x: hidden;
   // and dispaly three dots to let the user know there is more hidden content
   text-overflow: ellipsis;
+  // set text to be centered vertically in its container using line-height
+  line-height: 1.5rem;
 }
 
+// Since we are using position absolute for home-message-box-header,
+// this means the element is behaving like it's no longer present in the
+// dom, so the parent container no longer knows about it and finishes
+// the vertical height a bit earlier, the result looks like the box bleeds
+// into the next section:
+// -- Parent container -----------------
+// |                                   |
+// |   --- Child pos: absolute ---     |
+// |   |                         |     |
+// ----|-------------------------|------
+// -- Next container (section)---|------
+// |   |                         |     |
+// |   |                         |     |
+// |   ---------------------------     |
+// |                                   |
+// By using the margin bottom we move the parent container
+// bottom so the .home-message-box-header looks visually that
+// it's inside the parent container
 .#{$class}-box {
   margin-bottom: 3rem;
 }
 
 .#{$class}-box-close {
+  // Match the parent container round corner
+  // and use a smaller value to reduce bleeding
   border-bottom-right-radius: 0.4rem;
+
+  // Set the cursor to pointer so desktop users
+  // will see a hand that suggests interaction is possible
   cursor: pointer;
+
+  // Make the action call area (the area that you can tap/click)
+  // bigger to increase usability
+  width: 2.5rem;
+  font-size: 1.5rem;
 }
