@@ -106,7 +106,8 @@ input.#{$class}-radio[type=radio] {
   // and it'll be positioned starting at the bottom of the parent container
   // since top: 100% will move it away from the top and towards the bottom
   // by 100% height of the parent.
-  top: 100%;
+  // update: 101% to fix bleeding into parent container
+  top: 101%;
 
   // Display flex will make the content behave like inline elements
   display: flex;
