@@ -8,7 +8,12 @@
   },
   "section": {
     "experience": {
-      "title": "Experience"
+      "title": "Experience",
+      "content": [
+        {
+
+        }
+      ]
     },
     "about": {
       "title": "about me",
@@ -31,7 +36,7 @@
             {
               "title": "Best 30s elevator speed speech",
               "description": "I’ve won the 1st place twice and 2nd place once.",
-              "location": "Google Plex meeting – London",
+              "location": "Google Campus – London",
               "date": "2014"
             },
             {
