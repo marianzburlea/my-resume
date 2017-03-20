@@ -1,6 +1,27 @@
 each card in content.card
+  //- about card list
   .about-card
-    h3.about-card-title #{card.title} !!!
-    p.about-card-description #{card.description}
-    p.about-card-location #{card.location}
-    p.about-card-date #{card.date}
+    //- about card list item
+    h3.about-card-title
+      //- set the icon symbol for title
+      span.resume-icon-trophy
+      //- print item content
+      span.about-card-item #{card.title}
+    //- about card list item
+    p.about-card-description
+      //- set the icon symbol for description
+      span.resume-icon-info
+      //- print item content
+      span.about-card-item #{card.description}
+    //- about card list item
+    p.about-card-location
+      //- set the icon symbol for location
+      span.resume-icon-map2
+      //- print item content
+      span.about-card-item #{card.location}
+    //- about card list item
+    p.about-card-date 
+      //- set the icon symbol for date
+      span.resume-icon-calendar
+      //- print item content
+      span.about-card-item #{card.date}

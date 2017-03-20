@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "my-resume",
-    "lastOpened": 1489680404569,
-    "created": 1489680335687
+    "lastOpened": 1490043496427,
+    "created": 1490043494279
   },
   "iconSets": [
     {
@@ -14095,7 +14095,10 @@
           "ligatures": "map2, guide2",
           "name": "map2",
           "id": 76,
-          "order": 0
+          "order": 19,
+          "prevSize": 32,
+          "code": 59724,
+          "tempChar": ""
         },
         {
           "ligatures": "history, time",
@@ -14137,7 +14140,10 @@
           "ligatures": "calendar, date",
           "name": "calendar",
           "id": 83,
-          "order": 0
+          "order": 21,
+          "prevSize": 32,
+          "code": 59731,
+          "tempChar": ""
         },
         {
           "ligatures": "printer, print",
@@ -14587,7 +14593,10 @@
           "ligatures": "trophy, cup",
           "name": "trophy",
           "id": 158,
-          "order": 0
+          "order": 20,
+          "prevSize": 32,
+          "code": 59806,
+          "tempChar": ""
         },
         {
           "ligatures": "gift, present",
@@ -15247,7 +15256,10 @@
           "ligatures": "info, information",
           "name": "info",
           "id": 268,
-          "order": 0
+          "order": 22,
+          "prevSize": 32,
+          "code": 59916,
+          "tempChar": ""
         },
         {
           "ligatures": "cancel-circle, close",
@@ -16018,7 +16030,7 @@
           "order": 13,
           "prevSize": 32,
           "code": 60044,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "google-plus3, brand7",
@@ -16051,7 +16063,7 @@
           "order": 12,
           "prevSize": 32,
           "code": 60049,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "instagram, brand12",
@@ -16084,7 +16096,7 @@
           "order": 8,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -16129,7 +16141,7 @@
           "order": 9,
           "prevSize": 32,
           "code": 60061,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "youtube2, brand22",
@@ -16246,7 +16258,7 @@
           "order": 16,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -16375,7 +16387,7 @@
           "order": 15,
           "prevSize": 32,
           "code": 60101,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "reddit, brand61",
@@ -16402,7 +16414,7 @@
           "order": 11,
           "prevSize": 32,
           "code": 60105,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "linkedin2, brand65",
@@ -16573,7 +16585,7 @@
           "order": 14,
           "prevSize": 32,
           "code": 60132,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "html-five2, w3c2",
@@ -25085,7 +25097,6 @@
       ]
     }
   ],
-  "uid": -1,
   "preferences": {
     "showGlyphs": true,
     "showCodes": true,
@@ -25122,5 +25133,6 @@
       "bgColor": 16777215
     },
     "historySize": 100
-  }
+  },
+  "uid": -1
 }
