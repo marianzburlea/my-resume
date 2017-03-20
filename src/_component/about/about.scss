@@ -13,6 +13,10 @@ $class: 'about';
   display: block;
 }
 
+.#{$class}-section-title {
+  @extend %section-title;
+}
+
 .#{$class}-avatar {
   // apply circle shape and display block
   @extend %avatar-common;

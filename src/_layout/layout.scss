@@ -23,3 +23,10 @@ html, body {
 %section {
   min-height: 100vh;
 }
+
+%section-title {
+  @extend %noselect;
+
+  color: $color-periwinkle-gray;
+  font-size: 4rem;
+}
