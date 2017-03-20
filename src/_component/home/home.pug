@@ -2,15 +2,15 @@
   //- we want home wrapper to be positioned
   //- in the center vertically and horizontally
   .home-wrapper
-    h1.home-name #{resume.author.name}
-    h2.home-title #{resume.author.title}
+    h1.home-name #{section.home.author.name}
+    h2.home-title #{section.home.author.title}
     ul.home-social
-      //- using each social in resume.author.social means
+      //- using each social in section.home.author.social means
       //- that we'll iterate (go through one by one) over
-      //- resume.author.social collection and the "social"
+      //- section.home.author.social collection and the "social"
       //- variable present after the word "each" will take
       //- as value each of the entities present in the collection
-      each social, key in resume.author.social
+      each social, key in section.home.author.social
         //- The block composed of li, a and span tag will be
         //- repeated as many times as the resume.author.collection
         //- length is, making code easier to mantain and less debugging
