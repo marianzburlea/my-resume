@@ -2,10 +2,9 @@
   .about-wrapper
     each content in section.about.content
       .about-content
-      if content.type === 'avatar'
-        .about-avatar
-          img(src=content.url)
-      if content.type === 'text'
-        h1.about-title #{content.title}
-        each paragraph in content.text
-          p.about-paragraph #{paragraph}
+        if content.type === 'avatar'
+          img.about-avatar(src=content.url)
+        if content.type === 'text'
+          h1.about-title #{content.title}
+          each paragraph in content.text
+            p.about-paragraph #{paragraph}
