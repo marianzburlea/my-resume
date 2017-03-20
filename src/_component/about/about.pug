@@ -1,10 +1,17 @@
 .about
   .about-wrapper
+    //- Loop through each about content in the main section
+    //- and render content based on the value of type property
     each content in section.about.content
       .about-content
+        //- Check if it is of avatar type
         if content.type === 'avatar'
-          img.about-avatar(src=content.url)
+          .about-avatar-wrapper
+            img.about-avatar(src=content.url)
+        //- Check if it is of text type
         if content.type === 'text'
-          h1.about-title #{content.title}
+          h2.about-title #{content.title}
+          //- Loop through each of the text collection
+          //- and render as many paragraphs as available
           each paragraph in content.text
             p.about-paragraph #{paragraph}
