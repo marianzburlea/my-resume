@@ -1,0 +1,5 @@
+$class: 'experience';
+
+.#{$class}-section-title {
+  @extend %section-title;
+}

@@ -7,8 +7,11 @@
     "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
   },
   "section": {
+    "experience": {
+      "title": "Experience"
+    },
     "about": {
-      "title": "About me",
+      "title": "about me",
       "content": [
         {
           "type": "avatar",
