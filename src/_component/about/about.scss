@@ -2,7 +2,7 @@ $class: 'about';
 
 .#{$class} {
   // Set some whitespace between content and edges
-  padding: 5vw;
+  @extend %section-container;
 }
 
 %avatar-common {

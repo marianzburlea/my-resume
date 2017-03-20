@@ -30,3 +30,8 @@ html, body {
   color: $color-periwinkle-gray;
   font-size: 4rem;
 }
+
+%section-container {
+  // Set some whitespace between content and edges
+  padding: 5vw;
+}
