@@ -18,7 +18,8 @@ $class: 'about';
   @extend %avatar-common;
 
   // Stretch as much as the parent container
-  max-width: 100%;
+  // and use width instead of max-width
+  width: 100%;
   // set the border to white so it blends with the background
   border: 0.5rem solid $color-white;
 }
