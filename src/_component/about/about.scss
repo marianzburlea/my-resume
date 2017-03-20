@@ -50,12 +50,14 @@ $class: 'about';
 
 .#{$class}-paragraph {
   // set the font size to be easy to read
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   // and increase the spacing between two lines
-  line-height: 1.5;
+  line-height: 1.7;
   // and set the text to be displayed from the left margin
   // all the way to the right margin
   text-align: justify;
   // and increase the top and bottom white space
-  padding: 1rem 0;
+  padding: 0.7rem 0;
+  // and indent the first line
+  text-indent: 2rem;
 }
