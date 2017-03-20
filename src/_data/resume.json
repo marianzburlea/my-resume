@@ -6,47 +6,51 @@
     "pageTitle": "resume Marian Zburlea",
     "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
   },
-  "author": {
-    "name": "Marian Zburlea",
-    "title": "Web Developer",
-    "//": "There is no way to create comments in a JSON file and this is close enough",
-    "//": "The 'social' property value is an array of objects,",
-    "//": "a collection of objects, and each object has two properties,",
-    "//": "an icon and an url. The collection and Those properties",
-    "//": "will be used to generate the social media link bar.",
-    "social": [
-      {
-        "icon": "google-plus2",
-        "url": "https://plus.google.com/+ZburleaMarian"
-      },
-      {
-        "icon": "facebook2",
-        "url": "https://www.facebook.com/marianzburlea"
-      },
-      {
-        "icon": "twitter",
-        "url": "https://twitter.com/marianzburlea"
-      },
-      {
-        "icon": "youtube",
-        "url": "https://www.youtube.com/user/zeusul"
-      },
-      {
-        "icon": "github",
-        "url": "https://github.com/marianzburlea"
-      },
-      {
-        "icon": "skype",
-        "url": "skype:marianzburlea?call"
-      },
-      {
-        "icon": "linkedin",
-        "url": "https://www.linkedin.com/in/marianzburlea/"
-      },
-      {
-        "icon": "html-five",
-        "url": "http://bitbee.uk"
+  "section": {
+    "home": {
+      "author": {
+        "name": "Marian Zburlea",
+        "title": "Web Developer",
+        "//": "There is no way to create comments in a JSON file and this is close enough",
+        "//": "The 'social' property value is an array of objects,",
+        "//": "a collection of objects, and each object has two properties,",
+        "//": "an icon and an url. The collection and Those properties",
+        "//": "will be used to generate the social media link bar.",
+        "social": [
+          {
+            "icon": "google-plus2",
+            "url": "https://plus.google.com/+ZburleaMarian"
+          },
+          {
+            "icon": "facebook2",
+            "url": "https://www.facebook.com/marianzburlea"
+          },
+          {
+            "icon": "twitter",
+            "url": "https://twitter.com/marianzburlea"
+          },
+          {
+            "icon": "youtube",
+            "url": "https://www.youtube.com/user/zeusul"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/marianzburlea"
+          },
+          {
+            "icon": "skype",
+            "url": "skype:marianzburlea?call"
+          },
+          {
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/in/marianzburlea/"
+          },
+          {
+            "icon": "html-five",
+            "url": "http://bitbee.uk"
+          }
+        ]
       }
-    ]
+    }
   }
 }
