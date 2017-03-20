@@ -25,11 +25,21 @@
           ]
         },
         {
-          "type": "text",
+          "type": "card",
           "title": "Awards",
-          "text": [
-            "2014, BEST 30S ELEVATOR SPEED SPEECH Google Plex meeting – London, UK",
-            "2001, BEST WEB SITE FOR PRESIDENT ELECTIONS - Constanta / Romania"
+          "card": [
+            {
+              "title": "Best 30s elevator speed speech",
+              "description": "I’ve won the 1st place twice and 2nd place once.",
+              "location": "Google Plex meeting – London",
+              "date": "2014"
+            },
+            {
+              "title": "Best web site for president elections",
+              "description": "I've participated on a contest and won the best website for one of the candidates to the Romanian presidency.",
+              "location": "Constanta / Romania",
+              "date": "2001"
+            }
           ]
         },
         {
