@@ -23,8 +23,13 @@
           //- will change.
           label.experience-list-header(for=`experience-item-${key}`) #{listItem.jobTitle}
           .experience-list-body
-            div #{listItem.date}
-            div #{listItem.summary}
-            ul
+            //- wrap date and company into info and use display flex
+            //- on the info to make the date and company align on
+            //- horizontal direction each at the left and right side
+            .experience-list-info
+              .experience-list-date #{listItem.date}
+              .experience-list-company #{listItem.company}
+            .experience-list-summary #{listItem.summary}
+            ul.experience-responsability-list
               each responsibility in listItem.responsibility
-                li #{responsibility}
+                li.experience-responsability-list-item #{responsibility}

@@ -11,13 +11,24 @@ $class: 'experience';
 .#{$class}-list-header {
   // make the list header full width
   display: block;
+  // and increase a bit the font size
+  font-size: 1.2rem;
   // and create some white space between text and margins
-  padding: 0.5rem;
+  padding: 1rem;
   // and set the background colour
   background-color: $color-lily;
   // and set the text color to be in contrast with the color-lily
   // of the background
   color: $color-white;
+  // and show the hand cursor to suggest interaction
+  cursor: pointer;
+  // and set the border bottom
+  border-bottom: 0.1rem solid darken($color-lily, 10);
+
+  // and remove the border from the last occurence
+  &:last-of-type {
+    border-bottom: none;
+  }
 }
 
 .#{$class}-list-body {
@@ -32,6 +43,61 @@ $class: 'experience';
   // transition from 0 height to actual height or the
   // other way around
   transition: 0.25s;
+}
+
+.#{$class}-list-radio {
+  // hide all the input type radio buttons
+  display: none;
+}
+
+.#{$class}-list-company {
+  // make the font thicker for company
+  font-weight: bold;
+}
+
+.#{$class}-list-date {
+  // make the font oblique for date
+  font-style: italic;
+}
+
+.#{$class}-list-date,
+.#{$class}-list-company,
+.#{$class}-responsability-list-item,
+.#{$class}-list-summary {
+  // create some white space for date, company, list item
+  // and summary beteen content and margins
+  padding: 0.5rem;
+}
+
+.#{$class}-list-info {
+  // Use display flex to make the children appear on same row
+  display: flex;
+  // and use space between of justify content to make them
+  // sit one to the left and one to the right
+  justify-content: space-between;
+}
+
+.#{$class}-responsability-list {
+  // create some white space between the list and the
+  // end of the experience list body
+  margin-bottom: 0.4rem;
+}
+
+.#{$class}-responsability-list-item {
+  // make the list item lose touch with the body
+  // and make it sit centered
+  width: 98%;
+  margin: 0 auto;
+
+  // Alternate background colour using even and odd
+  // parameters of nth-child pseudo selector
+  &:nth-child(odd) {
+    background-color: lighten($color-almond, 10%);
+  }
+
+  &:nth-child(even) {
+    background-color: lighten($color-lily, 10%);
+  }
 }
 
 // we're using the adjacent selector "+" to apply css properties
@@ -51,6 +117,7 @@ $class: 'experience';
   // change the clour of the background for the selected
   // header experience
   background-color: $color-gumbo;
+  border-bottom: none;
 }
 
 // We use the adjacent selector twice, which means we are targeting
@@ -66,5 +133,6 @@ $class: 'experience';
 // In this example the input:checked + div + div will target
 // the .body div that follows the input with checked state.
 .#{$class}-list-radio:checked + .#{$class}-list-header + .#{$class}-list-body {
-  max-height: 56rem;
+  max-height: 100rem;
+  border: 0.1rem solid darken($color-gumbo, 10);
 }
