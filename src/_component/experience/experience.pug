@@ -1,3 +1,14 @@
 .experience
   .experience-section-title ##{section.experience.title}
   .experience-wrapper
+    each experience in section.experience.content
+      if experience.type === 'list'
+        each listItem, key in experience.list
+          label(for=`experience-item-${key}`) #{listItem.date}
+          input.experience-list-radio(type="radio", name="experience-list", id=`experience-item-${key}`)
+          .experience-list-body
+            div #{listItem.jobTitle}
+            div #{listItem.summary}
+            ul
+              each responsibility in listItem.responsibility
+                li #{responsibility}

@@ -10,7 +10,7 @@ $class: 'about-card';
 
   // select all the resume-icons span elements
   span[class*=resume-icon] {
-    // and set some padding left and right
+    // and double the font size of the icon
     font-size: 2rem;
   }
 }

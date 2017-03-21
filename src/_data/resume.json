@@ -9,16 +9,145 @@
   "section": {
     "experience": {
       "title": "Experience",
-      "content": [
-        {
-
-        }
-      ]
+      "content": [{
+        "type": "list",
+        "list": [{
+            "date": "2013 Jun – present",
+            "jobTitle": "DIRECTOR",
+            "company": "Smart Yii Limited",
+            "summary": "This is the company that I contract through.",
+            "responsibility": []
+          },
+          {
+            "date": "2015 Oct – present",
+            "jobTitle": "Senior Front-End Developer",
+            "company": "Argus Software",
+            "summary": "Restructure and rebuild the front end solution migrating from Ember to AngularJS and AngularJS 2 feature based. Other technologies used: sass, gulp, node, npm, typescript etc.",
+            "responsibility": []
+          },
+          {
+            "date": "2014 Oct – 2015 Oct",
+            "jobTitle": "Senior UI Developer",
+            "company": "Direct Line Group",
+            "summary": "Restructure and rebuild using Angular 1.4",
+            "responsibility": [
+              "My main responsibility was to build the mobile, tablet and desktop interface for a new insurance product. On a daily basis I’ve been using HTML5, CSS3 and JavaScript (vanilla or AngularJS) to skin the interface. In this process I’ve played an important role among the front-end developers leading and helping them deliver their tasks. I’ve also been in close touch with the designers, stakeholders and managers to ensure good communication and solution adoption.",
+              "Champion the agile process followed within the UI Dev Team. Ensure that our processes are understood by others",
+              "Advise and propose best practice into design process, when required, to help achieve a more robust UI",
+              "Develop web pages from approved designs and content requirements using technologies including HTML, CSS and JavaScript",
+              "Work with and manage code repositories",
+              "Complete all allocated tasks as prioritized and without incident or issue, in line with agreed time scales",
+              "Perform and complete cross browser compliance testing and accessibility testing",
+              "Provide relevant support to CIO development teams and teams within Digital Services",
+              "Support and mentor fellow team members",
+              "Research new technologies and their potential uses on the Direct Line Group websites",
+              "Provide proof of concepts and advise the business of the relevant benefits of investing in these technologies",
+              "Take ownership of own personal development and career progression"
+            ]
+          },
+          {
+            "date": "2013 Apr – 2014 Oct",
+            "jobTitle": "Software engineer",
+            "company": "Chemist Direct UK",
+            "summary": "Redesign and rebuild the #1 online chemical selling website in UK using Yii1 & Angular 1",
+            "responsibility": [
+              "Attended meetings with CTO, CEO, Head of Product, managers and others as solution adviser and problem solver",
+              "Liaise and consult with offshore team and partners",
+              "Attended personnel interviews",
+              "Set up development and testing servers",
+              "Plan and set up multiple Yii app infrastructure",
+              "Set up Git for version control system and offer guidance",
+              "Develop and extend the RESTFul interface of Magento",
+              "Customize and extend the admin panel of Magento",
+              "Create mass import/export applications to and from Magento",
+              "Implemented CDN and automated the process for images",
+              "Trained staff to use CDN for other assets",
+              "Develop Yii console commands that talk via REST with other Yii apps, Magento or external services",
+              "Implement RabbitMQ to replace some of the existing cron jobs",
+              "Implement Solr/Solarium for faceting and product retrieval",
+              "Implement Redis for better cache management",
+              "Implement and training for Twig template system",
+              "Identify problems and tune up back and front end",
+              "Identify, fix and improve SEO",
+              "Fix and improve UX and responsive design issues",
+              "QC and training of staff",
+              "Developed risk free solutions"
+            ]
+          },
+          {
+            "date": "2011 Sep – 2013 Apr",
+            "jobTitle": "Senior web developer",
+            "company": "Content Formula",
+            "summary": "A full stack Senior Web Developer with a focus in Yii PHP Framework, Drupal 6 & 7, mobile web applications etc. I’m involved in all stages of project lifecycles, specifically a key member of the creative process, project development plans, building and testing. I’ve had the opportunity to work in the areas like HTML5 Mobile Web applications, High traffic Drupal Sites, Learning tools built with Yii PHP framework, parallax websites, Flash ActionScript 2&3 web & mobile apps, email campaigns etc. I am also responsible of QC of other developer’s code and enforcing best practices and technologies.",
+            "responsibility": [
+              "supervise and run database migrations",
+              "create and maintain shell scripts for automatization",
+              "implement caching using Memcache, Redis, Varnish",
+              "implement NoSQL databases like Solr",
+              "build and maintain server setups",
+              "create custom reporting apps",
+              "build and maintain Drupal 5, 6, 7 websites",
+              "extend or create Drupal modules and themes",
+              "create or extend custom JavaScript features like: media sliders, drag & drop, alerts, modals, menus etc.",
+              "assured compatibility or best case scenario of web sites running on IE6+ and modern ones like Chrome, Firefox, Opera, Safari and Mobile",
+              "assured W3C compatibility",
+              "build and test newsletters",
+              "converted PSD to HTML/CSS according to best practices",
+              "provide phone support or face to face for clients",
+              "managed and improved the search engine optimization",
+              "managed solutions to improve load and render time"
+            ]
+          },
+          {
+            "date": "2006 – 2011",
+            "jobTitle": "Web developer & designer, SEO",
+            "company": "ZeusMedia",
+            "summary": "A full stack Senior Web Developer with a focus in Yii PHP Framework, Drupal 6 & 7, mobile web applications etc. I’m involved in all stages of project lifecycles, specifically a key member of the creative process, project development plans, building and testing. I’ve had the opportunity to work in the areas like HTML5 Mobile Web applications, High traffic Drupal Sites, Learning tools built with Yii PHP framework, parallax websites, Flash ActionScript 2&3 web & mobile apps, email campaigns etc. I am also responsible of QC of other developer’s code and enforcing best practices and technologies.",
+            "responsibility": [
+              "build custom CMS solutions from scratch on top of own PHP framework",
+              "convert PSD to CSS/HTML according to best practices",
+              "build and manage search engine optimization",
+              "manage to get over 50 web sites in Google first page",
+              "manage to get over 20 web sites in Google first results",
+              "build custom UI and Widgets (mass uploaders, custom sortable and selectable grids, image processors, scrollbars, accordions and more) using Adobe Flash and ActionScript, Adobe Air",
+              "build custom apps (Desktop and Web)",
+              "build web spiders and scrappers",
+              "design and develop project structure",
+              "document project requirements",
+              "provided training for software use",
+              "liaise with clients",
+              "web consulting",
+              "create and maintain shell scripts for automatization",
+              "assured compatibility or best case scenario of web sites running on IE6+ and modern ones like Chrome, Firefox, Opera, Safari and Mobile",
+              "assured W3C compatibility",
+              "managed solutions to improve load and render time",
+              "design user interface and other custom designs using Photoshop, Illustrator, Corel, Fireworks"
+            ]
+          },
+          {
+            "date": "2002 – 2006",
+            "jobTitle": "Web developer & designer",
+            "company": "Contractor",
+            "summary": "",
+            "responsibility": []
+          },
+          {
+            "date": "1998 – 2002",
+            "jobTitle": "Web developer & designer, Sys Admin",
+            "company": "Romaris",
+            "summary": "",
+            "responsibility": [
+              "develop, design and manage over 50 web sites",
+              "provide training for personnel",
+              "build and maintain network & hardware & software"
+            ]
+          }
+        ]
+      }]
     },
     "about": {
       "title": "about me",
-      "content": [
-        {
+      "content": [{
           "type": "avatar",
           "url": "asset/image/marian-zburlea-avatar.jpg"
         },
@@ -32,8 +161,7 @@
         {
           "type": "card",
           "title": "Awards",
-          "card": [
-            {
+          "card": [{
               "title": "Best 30s elevator speed speech",
               "description": "I’ve won the 1st place twice and 2nd place once.",
               "location": "Google Campus – London",
@@ -65,8 +193,7 @@
         "//": "a collection of objects, and each object has two properties,",
         "//": "an icon and an url. The collection and Those properties",
         "//": "will be used to generate the social media link bar.",
-        "social": [
-          {
+        "social": [{
             "icon": "google-plus2",
             "url": "https://plus.google.com/+ZburleaMarian"
           },
