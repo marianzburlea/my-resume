@@ -83,13 +83,18 @@ $class: 'experience';
   margin-bottom: 0.4rem;
 }
 
+.#{$class}-responsability-list-item,
+.#{$class}-list-summary {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
 .#{$class}-responsability-list-item {
   // make the list item lose touch with the body
   // and make it sit centered
   width: 98%;
   margin: 0 auto;
-  line-height: 1.5;
-  font-size: 1.2rem;
 
   // Alternate background colour using even and odd
   // parameters of nth-child pseudo selector
@@ -135,6 +140,6 @@ $class: 'experience';
 // In this example the input:checked + div + div will target
 // the .body div that follows the input with checked state.
 .#{$class}-list-radio:checked + .#{$class}-list-header + .#{$class}-list-body {
-  max-height: 100rem;
+  max-height: 300rem;
   border: 0.1rem solid darken($color-gumbo, 10);
 }
