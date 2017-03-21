@@ -31,14 +31,13 @@ $class: 'home-message';
 }
 
 .#{$class}-radio + .#{$class} {
-  // Hide all .home-message that follow as sibling
+  // Hide all .home-message that follow as sibling to
   // an input type radio with checked state as false
   display: none;
 }
 
 #message-default.#{$class}-radio:checked + .#{$class} + .#{$class}-box-header {
-  // Hide all .home-message that follow as sibling
-  // an input type radio with checked state as false
+  // Hide .home-message-box-header when no link is selected
   display: none;
 }
 
