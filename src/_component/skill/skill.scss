@@ -1,0 +1,33 @@
+$class: 'skill';
+
+.#{$class} {
+  // Set some whitespace between content and edges
+  @extend %section-container;
+}
+
+.#{$class}-section-title {
+  @extend %section-title;
+}
+
+.#{$class}-title {
+  font-size: 3rem;
+  text-align: center;
+  color: $color-fiord;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+
+.#{$class}-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.#{$class}-item {
+  border: 0.1rem solid $color-periwinkle-gray;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.2rem;
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.4rem;
+}
