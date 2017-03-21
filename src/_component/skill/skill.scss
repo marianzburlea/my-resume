@@ -6,28 +6,44 @@ $class: 'skill';
 }
 
 .#{$class}-section-title {
+  // Extend from section-title
   @extend %section-title;
 }
 
 .#{$class}-title {
+  // Increase the font size
   font-size: 3rem;
+  // and align the text to center
   text-align: center;
+  // and set the colour to be a dark one
   color: $color-fiord;
+  // and create whitespacing between the text and margins
   padding: 1rem;
+  // and transform the first letter of each word to uppercase
   text-transform: capitalize;
 }
 
 .#{$class}-list {
+  // We're smart and use flex box
   display: flex;
+  // and tell the flex box to break content if longer than
+  // the available width
   flex-wrap: wrap;
+  // and align content to center
   justify-content: center;
 }
 
 .#{$class}-item {
+  // Create a slim border with a neutral nuance
   border: 0.1rem solid $color-periwinkle-gray;
+  // and create some white spacing so the content
+  // stands out and it's easy to read
   padding: 0.8rem 1.2rem;
+  // and go crazy with small rounder corners
   border-radius: 0.2rem;
+  // and create some distance between list item elements
   margin-right: 0.2rem;
   margin-bottom: 0.2rem;
+  // and increase the font size
   font-size: 1.4rem;
 }
