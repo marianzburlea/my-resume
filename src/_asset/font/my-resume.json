@@ -13632,7 +13632,7 @@
           "grid": 14
         }
       ],
-      "invisible": false
+      "invisible": true
     },
     {
       "selection": [
@@ -15266,7 +15266,10 @@
           "ligatures": "plus, add",
           "name": "plus",
           "id": 266,
-          "order": 0
+          "order": 31,
+          "prevSize": 32,
+          "code": 59914,
+          "tempChar": ""
         },
         {
           "ligatures": "minus, subtract",
@@ -15281,7 +15284,7 @@
           "order": 22,
           "prevSize": 32,
           "code": 59916,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "cancel-circle, close",
@@ -16052,7 +16055,7 @@
           "order": 13,
           "prevSize": 32,
           "code": 60044,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "google-plus3, brand7",
@@ -16085,7 +16088,7 @@
           "order": 12,
           "prevSize": 32,
           "code": 60049,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "instagram, brand12",
@@ -16118,7 +16121,7 @@
           "order": 8,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -16163,7 +16166,7 @@
           "order": 9,
           "prevSize": 32,
           "code": 60061,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "youtube2, brand22",
@@ -16280,7 +16283,7 @@
           "order": 16,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -16409,7 +16412,7 @@
           "order": 15,
           "prevSize": 32,
           "code": 60101,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "reddit, brand61",
@@ -16436,7 +16439,7 @@
           "order": 11,
           "prevSize": 32,
           "code": 60105,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "linkedin2, brand65",
@@ -16607,7 +16610,7 @@
           "order": 14,
           "prevSize": 32,
           "code": 60132,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "html-five2, w3c2",
