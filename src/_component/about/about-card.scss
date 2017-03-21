@@ -11,16 +11,16 @@ $class: 'about-card';
   // select all the resume-icons span elements
   span[class*=resume-icon] {
     // and set some padding left and right
-    padding: 0 1rem;
+    font-size: 2rem;
   }
 }
 
 // about-card-item is the element in each of the
 // award list
 .#{$class}-item {
-  // set width to 80% to play with the amount of text
+  // set width to 85% to play with the amount of text
   // that gets to be on each line
-  width: 80%;
+  width: 85%;
   // and position it to center
   margin: 0 auto;
 }
@@ -42,7 +42,7 @@ $class: 'about-card';
   // and set the text to be centered
   text-align: center;
   // and allow some whitespace in each about-card child
-  padding: 0.5rem;
+  padding: 1.2rem;
   // and set the font size as the one of the paragraph
   font-size: 1.2rem;
   // and the line height size as the one of the paragraph

@@ -34,8 +34,8 @@ $class: 'about';
   // apply circle shape and display block
   @extend %avatar-common;
 
-  // set the max width to 80%
-  max-width: 80%;
+  // set the max width to 50%
+  max-width: 50%;
   // and combine it with margin auto to position
   // it to center (like text-align: center)
   margin: 1rem auto;
