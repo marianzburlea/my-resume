@@ -21,7 +21,9 @@
           //- value of the input type radio. Once the two are paired, when you
           //- click/tap on the label the state of the input (checked or not)
           //- will change.
-          label.experience-list-header(for=`experience-item-${key}`) #{listItem.jobTitle}
+          label.experience-list-header(for=`experience-item-${key}`)
+            a(name=listItem.jobTitle)
+            span #{listItem.jobTitle}
           .experience-list-body
             //- wrap date and company into info and use display flex
             //- on the info to make the date and company align on
