@@ -1,0 +1,8 @@
+.skill
+  .skill-wrapper
+    each content in section.skill.content
+      h3.skill-title #{content.title}
+      if content.type === 'list'
+        ul.skill-list
+          each skill in content.list
+            li.skill-item #{skill}
