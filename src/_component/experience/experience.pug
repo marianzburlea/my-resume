@@ -1,13 +1,29 @@
 .experience
   .experience-section-title ##{section.experience.title}
   .experience-wrapper
+    //- iterate (loop through) the section.sexperience.content
+    //- and assign each value to the "experience" variable
+    //- (the one that follows next to the right of the word "each")
     each experience in section.experience.content
       if experience.type === 'list'
+        //- Loop through each list item in the experience list content
+        //- assign the value to listItem variable and also keep track
+        //- of the current iteration step with the key value
+        //- at first iteration step, key will be 0, at second iteration
+        //- step it will be 1, at third it will be 2 and so on
         each listItem, key in experience.list
-          label(for=`experience-item-${key}`) #{listItem.date}
+          //- we also specify a name and all the input type radio that will be
+          //- generated from the next line will have the same value to the name
+          //- attribute, which will group them and only one can be selected
+          //- at the same time.
           input.experience-list-radio(type="radio", name="experience-list", id=`experience-item-${key}`)
+          //- pair the for attribute value of the label with the id attribute
+          //- value of the input type radio. Once the two are paired, when you
+          //- click/tap on the label the state of the input (checked or not)
+          //- will change.
+          label.experience-list-header(for=`experience-item-${key}`) #{listItem.jobTitle}
           .experience-list-body
-            div #{listItem.jobTitle}
+            div #{listItem.date}
             div #{listItem.summary}
             ul
               each responsibility in listItem.responsibility

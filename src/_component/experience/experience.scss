@@ -7,3 +7,64 @@ $class: 'experience';
 .#{$class}-section-title {
   @extend %section-title;
 }
+
+.#{$class}-list-header {
+  // make the list header full width
+  display: block;
+  // and create some white space between text and margins
+  padding: 0.5rem;
+  // and set the background colour
+  background-color: $color-lily;
+  // and set the text color to be in contrast with the color-lily
+  // of the background
+  color: $color-white;
+}
+
+.#{$class}-list-body {
+  // use max-height and overflow hidden CSS trick
+  // to make a PURE CSS accordion
+  max-height: 0;
+  overflow: hidden;
+  // and set the list body to full width
+  display: block;
+  // and add a quick animation of a quarter of a second
+  // the checked / not checked state will make elements
+  // transition from 0 height to actual height or the
+  // other way around
+  transition: 0.25s;
+}
+
+// we're using the adjacent selector "+" to apply css properties
+// to the next sibling element based on the checked state of the
+// first element
+// Exaple:
+// <section>
+//   <input type="radio">
+//   <div>text</div>
+//   <input type="radio">
+//   <div>text</div>
+// </section>
+// in the example above the input and div elements are all
+// siblings, because they are on the same level and children
+// of the same parent
+.#{$class}-list-radio:checked + .#{$class}-list-header {
+  // change the clour of the background for the selected
+  // header experience
+  background-color: $color-gumbo;
+}
+
+// We use the adjacent selector twice, which means we are targeting
+// the next next sibling. Example:
+// <section>
+//   <input type="radio" checked>
+//   <div class="header">title</div>
+//   <div class="body">text</div> <!-- <=-- this is the targeted element -->
+//   <input type="radio">
+//   <div class="header">title</div>
+//   <div class="body">text</div>
+// </section>
+// In this example the input:checked + div + div will target
+// the .body div that follows the input with checked state.
+.#{$class}-list-radio:checked + .#{$class}-list-header + .#{$class}-list-body {
+  max-height: 56rem;
+}
