@@ -11,19 +11,21 @@
       "title": "experience",
       "content": [{
         "type": "list",
-        "list": [{
-            "date": "2013 Jun – present",
-            "jobTitle": "DIRECTOR",
-            "company": "Smart Yii Limited",
-            "summary": "This is the company that I contract through.",
-            "responsibility": []
-          },
+        "list": [
           {
             "date": "2015 Oct – present",
             "jobTitle": "Senior Front-End Developer",
             "company": "Argus Software",
             "summary": "Restructure and rebuild the front end solution migrating from Ember to AngularJS and AngularJS 2 feature based. Other technologies used: sass, gulp, node, npm, typescript etc.",
-            "responsibility": []
+            "responsibility": [
+              "Restructure and rebuild the front-end solution migrating from Ember to AngularJS and Angular2 feature based. Other technologies used: sass, gulp, node, npm, typescript etc.",
+              "Provide training and support for team members within front-end technologies",
+              "Do pair programming to ensure a good understanding of new technologies and techniques",
+              "Attend code reviews and provide knowledge and support for creating a better code base",
+              "Research and promote cutting edge technologies and design patterns like Angular 2, TypeScript, Redux, Reactive Programming, ES6, build and deploy tools etc",
+              "Create a positive atmosphere and a touch of amusement occasionally to bring members closer together"
+
+            ]
           },
           {
             "date": "2014 Oct – 2015 Oct",
@@ -73,6 +75,13 @@
               "QC and training of staff",
               "Developed risk free solutions"
             ]
+          },
+          {
+            "date": "2013 Jun – present",
+            "jobTitle": "Senior Front-End Developer",
+            "company": "Smart Yii Limited",
+            "summary": "This is the company that I contract through.",
+            "responsibility": []
           },
           {
             "date": "2011 Sep – 2013 Apr",
@@ -128,7 +137,7 @@
             "date": "2002 – 2006",
             "jobTitle": "Web developer & designer",
             "company": "Contractor",
-            "summary": "",
+            "summary": "Design, develop and sell websites using PHP, MySQL, HTML, CSS and Macromedia Flash",
             "responsibility": []
           },
           {
@@ -169,7 +178,7 @@
             },
             {
               "title": "Best web site for president elections",
-              "description": "I've participated on a contest and won the best website for one of the candidates to the Romanian presidency.",
+              "description": "I've on the best built website for the second runner in the presidential election campaign.",
               "location": "Constanta / Romania",
               "date": "2001"
             }
@@ -189,8 +198,8 @@
         "name": "Marian Zburlea",
         "title": "Web Developer",
         "//": "There is no way to create comments in a JSON file and this is close enough",
-        "//": "The 'social' property value is an array of objects,",
-        "//": "a collection of objects, and each object has two properties,",
+        "//": "The 'social' property value is an array of objects",
+        "//": "a collection of objects, and each object has two properties",
         "//": "an icon and an url. The collection and Those properties",
         "//": "will be used to generate the social media link bar.",
         "social": [{
