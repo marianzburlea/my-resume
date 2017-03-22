@@ -7,6 +7,40 @@
     "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
   },
   "section": {
+    "menu": {
+      "action": {
+        "label": "menu",
+        "url": "menu",
+        "icon": "resume-icon-menu3"
+      },
+      "list": [
+        {
+          "label": "home",
+          "url": "home",
+          "icon": "resume-icon-home"
+        },
+        {
+          "label": "about",
+          "url": "about",
+          "icon": "resume-icon-wondering"
+        },
+        {
+          "label": "experience",
+          "url": "experience",
+          "icon": "resume-icon-airplane"
+        },
+        {
+          "label": "skill",
+          "url": "skill",
+          "icon": "resume-icon-hammer"
+        },
+        {
+          "label": "client",
+          "url": "client",
+          "icon": "resume-icon-briefcase"
+        }
+      ]
+    },
     "skill": {
       "title": "my skills",
       "content": [
