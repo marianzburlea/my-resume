@@ -1,13 +1,11 @@
 #menu
 .menu
   .menu-call
-    div
-      a.menu-link(href=`#${section.menu.action.url}`)
-        span.resume-icon-menu3
-  .menu-list
-    ul
-      each menuItem in section.menu.list
-        li
-          a(href=`#${menuItem.url}`)
-            span(class=menuItem.icon)
-            span #{menuItem.label}
+    a.menu-link(href=`#${section.menu.action.url}`)
+      span.resume-icon-menu3
+  ul.menu-list
+    each menuItem in section.menu.list
+      li.menu-list-item
+        a.menu-list-link(href=`#${menuItem.url}`)
+          span(class=menuItem.icon)
+          span #{menuItem.label}

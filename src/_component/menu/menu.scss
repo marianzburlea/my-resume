@@ -1,17 +1,49 @@
 $class: 'menu';
 
+.#{$class} {
+  // Set some whitespace between content and edges
+  @extend %section-container;
+}
+
 .#{$class}-call {
   position: fixed;
   bottom: 1rem;
   right: 0;
 }
 
-.#{$class}-link {
+.#{$class}-link,
+.#{$class}-list-link {
   text-decoration: none;
+}
+
+.#{$class}-link {
   font-size: 3rem;
   padding: 1rem;
   background-color: $color-fiord;
   border: 0.1rem solid $color-fiord;
   color: $color-white;
   border-radius: 0.3rem;
+}
+
+.#{$class}-list {
+  border: 0.1rem solid $color-gumbo;
+  border-radius: 0.3rem;
+}
+
+.#{$class}-list-item {
+  border-bottom: 0.1rem solid $color-gumbo;
+
+  &:last-child {
+    border: none;
+  }
+}
+.#{$class}-list-link {
+  padding: 1rem;
+  font-size: 2rem;
+  display: block;
+  color: $color-manatee;
+
+  span[class^=resume-icon] {
+    padding-right:2rem;
+  }
 }
