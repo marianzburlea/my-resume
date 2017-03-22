@@ -29,6 +29,10 @@ $class: 'experience';
   &:last-of-type {
     border-bottom: none;
   }
+
+  .resume-icon-plus {
+    float: right;
+  }
 }
 
 .#{$class}-list-body {
@@ -125,6 +129,10 @@ $class: 'experience';
   // header experience
   background-color: $color-gumbo;
   border-bottom: none;
+
+  .resume-icon-plus {
+    transform: rotate(45deg);
+  }
 }
 
 // We use the adjacent selector twice, which means we are targeting
