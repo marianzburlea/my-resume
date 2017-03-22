@@ -7,6 +7,7 @@
     //- (the one that follows next to the right of the word "each")
     each experience in section.experience.content
       if experience.type === 'list'
+        input.experience-list-radio(type="radio", name="experience-list", id="experience-list-close")
         //- Loop through each list item in the experience list content
         //- assign the value to listItem variable and also keep track
         //- of the current iteration step with the key value
@@ -25,6 +26,8 @@
           label.experience-list-header(for=`experience-item-${key}`)
             a(name=listItem.jobTitle)
             span #{listItem.jobTitle}
+            label.experience-list-close(for="experience-list-close")
+              span.resume-icon-plus
             span.resume-icon-plus
           .experience-list-body
             //- wrap date and company into info and use display flex
