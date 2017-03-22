@@ -1,2 +1,8 @@
 #client
 .client
+  .client-section-title ##{section.client.title}
+  .client-wrapper
+    ul.client-list
+      each image in section.client.content
+        li.client-item
+          img.client-image(src=`asset/image/client/${image}`)

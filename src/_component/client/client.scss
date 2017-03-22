@@ -1,0 +1,22 @@
+$class: 'client';
+
+.#{$class} {
+  // Set some whitespace between content and edges
+  @extend %section-container;
+}
+
+.#{$class}-section-title {
+  // Extend from section-title
+  @extend %section-title;
+}
+
+.#{$class}-image {
+  max-width: 100%;
+  min-height: 5rem;
+}
+
+.#{$class}-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

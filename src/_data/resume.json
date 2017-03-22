@@ -7,6 +7,15 @@
     "pageDescription": "You'll be mesmarized by Marian Zburlea's resume"
   },
   "section": {
+    "client": {
+      "title": "recent clients",
+      "content": [
+        "argus.png",
+        "chemist-direct.png",
+        "content-formula.png",
+        "direct-line-group.jpg"
+      ]
+    },
     "menu": {
       "action": {
         "label": "menu",
