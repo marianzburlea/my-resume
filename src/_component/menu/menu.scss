@@ -2,6 +2,16 @@ $class: 'menu';
 
 .#{$class}-call {
   position: fixed;
-  bottom: 0;
+  bottom: 1rem;
   right: 0;
+}
+
+.#{$class}-link {
+  text-decoration: none;
+  font-size: 3rem;
+  padding: 1rem;
+  background-color: $color-fiord;
+  border: 0.1rem solid $color-fiord;
+  color: $color-white;
+  border-radius: 0.3rem;
 }
