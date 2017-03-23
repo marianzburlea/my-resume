@@ -19,6 +19,30 @@ $class: 'about';
   @extend %section-title;
 }
 
+.#{$class}-link {
+  border: 0.1rem solid $color-lily;
+  color: $color-gumbo;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.#{$class}-link-list {
+  text-align: center;
+}
+
+.#{$class}-link-description {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
 .#{$class}-avatar {
   // apply circle shape and display block
   @extend %avatar-common;

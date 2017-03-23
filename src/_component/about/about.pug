@@ -25,6 +25,11 @@
           include about-card
         if content.type === 'link'
           h2.about-title #{content.title}
-          //- Loop through each of the card collection
-          //- and render as many paragraphs as available
+          //- Loop through each of the link collection
+          //- and render as many link buttons as available
           //- include about-card
+          .about-link-list
+            each link in content.link
+              a.about-link(href=link.url)
+                span.about-link-description #{link.text}
+                span(class=`resume-icon-${link.icon}`)
