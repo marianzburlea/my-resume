@@ -297,18 +297,19 @@
     },
     "about": {
       "title": "about me",
-      "content": [{
+      "content": [
+        {
           "type": "avatar",
           "url": "asset/image/marian-zburlea-avatar.jpg"
-        },
-        {
+        }
+        ,{
           "type": "text",
           "title": "Marian Zburlea",
           "text": [
             "I translate geek into English and I’m a problem solver driven by challenge. Work is my passion and I focus on innovation and design for the future."
           ]
-        },
-        {
+        }
+        ,{
           "type": "card",
           "title": "Awards",
           "card": [{
@@ -324,12 +325,28 @@
               "date": "2001"
             }
           ]
-        },
-        {
+        }
+        ,{
           "type": "text",
           "title": "Achievement",
           "text": [
             "I've built a custom SEO CMS that boosted search results position in Google's first places for tens of clients and their websites without any additional effort and minimum or no training."
+          ]
+        }
+        ,{
+          "type": "link",
+          "title": "grab cool stuff",
+          "link": [
+            {
+              "url": "http://github.com/marianzburlea/my-resume",
+              "icon": "github",
+              "text": "Click to visit the GitHub project source"
+            }
+            ,{
+              "url": "asset/doc/CONTRACTS ONLY - resume Marian Zburlea.docx",
+              "icon": "word",
+              "text": "Click to download the Microsoft Word version"
+            }
           ]
         }
       ]
