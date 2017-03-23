@@ -13639,7 +13639,10 @@
           "ligatures": "home, house",
           "name": "home",
           "id": 0,
-          "order": 0
+          "order": 26,
+          "prevSize": 32,
+          "code": 59648,
+          "tempChar": ""
         },
         {
           "ligatures": "home2, house2",
@@ -14065,13 +14068,19 @@
           "ligatures": "location, map-marker",
           "name": "location",
           "id": 71,
-          "order": 0
+          "order": 0,
+          "prevSize": 32,
+          "code": 59719,
+          "tempChar": ""
         },
         {
           "ligatures": "location2, map-marker2",
           "name": "location2",
           "id": 72,
-          "order": 0
+          "order": 0,
+          "prevSize": 32,
+          "code": 59720,
+          "tempChar": ""
         },
         {
           "ligatures": "compass, direction",
@@ -14095,7 +14104,10 @@
           "ligatures": "map2, guide2",
           "name": "map2",
           "id": 76,
-          "order": 0
+          "order": 24,
+          "prevSize": 32,
+          "code": 59724,
+          "tempChar": ""
         },
         {
           "ligatures": "history, time",
@@ -14137,7 +14149,10 @@
           "ligatures": "calendar, date",
           "name": "calendar",
           "id": 83,
-          "order": 0
+          "order": 25,
+          "prevSize": 32,
+          "code": 59731,
+          "tempChar": ""
         },
         {
           "ligatures": "printer, print",
@@ -14539,7 +14554,10 @@
           "ligatures": "hammer, tool2",
           "name": "hammer",
           "id": 150,
-          "order": 0
+          "order": 29,
+          "prevSize": 32,
+          "code": 59798,
+          "tempChar": ""
         },
         {
           "ligatures": "magic-wand, wizard",
@@ -14587,7 +14605,10 @@
           "ligatures": "trophy, cup",
           "name": "trophy",
           "id": 158,
-          "order": 0
+          "order": 20,
+          "prevSize": 32,
+          "code": 59806,
+          "tempChar": ""
         },
         {
           "ligatures": "gift, present",
@@ -14683,13 +14704,19 @@
           "ligatures": "briefcase, portfolio",
           "name": "briefcase",
           "id": 174,
-          "order": 0
+          "order": 30,
+          "prevSize": 32,
+          "code": 59822,
+          "tempChar": ""
         },
         {
           "ligatures": "airplane, travel",
           "name": "airplane",
           "id": 175,
-          "order": 0
+          "order": 28,
+          "prevSize": 32,
+          "code": 59823,
+          "tempChar": ""
         },
         {
           "ligatures": "truck, transit",
@@ -14785,7 +14812,10 @@
           "ligatures": "menu3, options3",
           "name": "menu3",
           "id": 191,
-          "order": 0
+          "order": 18,
+          "prevSize": 32,
+          "code": 59839,
+          "tempChar": ""
         },
         {
           "ligatures": "menu4, options4",
@@ -14851,7 +14881,10 @@
           "ligatures": "earth, globe2",
           "name": "earth",
           "id": 202,
-          "order": 0
+          "order": 31,
+          "prevSize": 32,
+          "code": 59850,
+          "tempChar": ""
         },
         {
           "ligatures": "link, chain",
@@ -15145,7 +15178,10 @@
           "ligatures": "wondering, emoticon29",
           "name": "wondering",
           "id": 251,
-          "order": 0
+          "order": 27,
+          "prevSize": 32,
+          "code": 59899,
+          "tempChar": ""
         },
         {
           "ligatures": "wondering2, emoticon30",
@@ -15235,7 +15271,10 @@
           "ligatures": "plus, add",
           "name": "plus",
           "id": 266,
-          "order": 0
+          "order": 19,
+          "prevSize": 32,
+          "code": 59914,
+          "tempChar": ""
         },
         {
           "ligatures": "minus, subtract",
@@ -15247,7 +15286,10 @@
           "ligatures": "info, information",
           "name": "info",
           "id": 268,
-          "order": 0
+          "order": 21,
+          "prevSize": 32,
+          "code": 59916,
+          "tempChar": ""
         },
         {
           "ligatures": "cancel-circle, close",
@@ -16018,7 +16060,7 @@
           "order": 13,
           "prevSize": 32,
           "code": 60044,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "google-plus3, brand7",
@@ -16051,7 +16093,7 @@
           "order": 12,
           "prevSize": 32,
           "code": 60049,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "instagram, brand12",
@@ -16084,7 +16126,7 @@
           "order": 8,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -16129,7 +16171,7 @@
           "order": 9,
           "prevSize": 32,
           "code": 60061,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "youtube2, brand22",
@@ -16246,7 +16288,7 @@
           "order": 16,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -16375,7 +16417,7 @@
           "order": 15,
           "prevSize": 32,
           "code": 60101,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "reddit, brand61",
@@ -16402,7 +16444,7 @@
           "order": 11,
           "prevSize": 32,
           "code": 60105,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "linkedin2, brand65",
@@ -16555,7 +16597,7 @@
           "order": 17,
           "prevSize": 32,
           "code": 60129,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "file-excel, file13",
@@ -16576,7 +16618,7 @@
           "order": 14,
           "prevSize": 32,
           "code": 60132,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "html-five2, w3c2",
