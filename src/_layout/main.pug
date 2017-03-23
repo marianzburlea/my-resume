@@ -6,6 +6,12 @@ html
     //- src, _data, resume.json, page, pageTitle
     title #{site.data.resume.page.pageTitle}
 
+    //- The main website will be hosted at http://my-resume.bitbee.uk
+    //- and it has a deployed copy at github.io. To avoid content duplication
+    //- detected by search engines we introduce link canonical
+    //- to set the main source of data and point search engines to it
+    link(rel="canonical", href="http://my-resume.bitbee.uk")
+
     //- grab the pageDescription from src, _data, resume.json,
     //- page and insert it into meta description for SEO
     meta(name="description", content=site.data.resume.page.pageDescription)
