@@ -3,6 +3,14 @@ $class: 'menu';
 .#{$class} {
   // Set some whitespace between content and edges
   @extend %section-container;
+
+  // make the menu sit on top of the menu-call
+  // by using position relative vs position absolute
+  // and setting a background color to white as with
+  // transparent the menu-call could be seen behind
+  // the menu section
+  position: relative;
+  background-color: $color-white;
 }
 
 .#{$class}-call {
