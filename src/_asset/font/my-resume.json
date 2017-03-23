@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "my-resume",
-    "lastOpened": 1490043496427,
-    "created": 1490043494279
+    "lastOpened": 1489680404569,
+    "created": 1489680335687
   },
   "iconSets": [
     {
@@ -13631,8 +13631,7 @@
           "defaultCode": 62176,
           "grid": 14
         }
-      ],
-      "invisible": true
+      ]
     },
     {
       "selection": [
@@ -13640,10 +13639,7 @@
           "ligatures": "home, house",
           "name": "home",
           "id": 0,
-          "order": 24,
-          "prevSize": 32,
-          "code": 59648,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "home2, house2",
@@ -14099,10 +14095,7 @@
           "ligatures": "map2, guide2",
           "name": "map2",
           "id": 76,
-          "order": 19,
-          "prevSize": 32,
-          "code": 59724,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "history, time",
@@ -14144,10 +14137,7 @@
           "ligatures": "calendar, date",
           "name": "calendar",
           "id": 83,
-          "order": 21,
-          "prevSize": 32,
-          "code": 59731,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "printer, print",
@@ -14549,10 +14539,7 @@
           "ligatures": "hammer, tool2",
           "name": "hammer",
           "id": 150,
-          "order": 27,
-          "prevSize": 32,
-          "code": 59798,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "magic-wand, wizard",
@@ -14600,10 +14587,7 @@
           "ligatures": "trophy, cup",
           "name": "trophy",
           "id": 158,
-          "order": 20,
-          "prevSize": 32,
-          "code": 59806,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "gift, present",
@@ -14699,19 +14683,13 @@
           "ligatures": "briefcase, portfolio",
           "name": "briefcase",
           "id": 174,
-          "order": 28,
-          "prevSize": 32,
-          "code": 59822,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "airplane, travel",
           "name": "airplane",
           "id": 175,
-          "order": 30,
-          "prevSize": 32,
-          "code": 59823,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "truck, transit",
@@ -14807,10 +14785,7 @@
           "ligatures": "menu3, options3",
           "name": "menu3",
           "id": 191,
-          "order": 23,
-          "prevSize": 32,
-          "code": 59839,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "menu4, options4",
@@ -14876,10 +14851,7 @@
           "ligatures": "earth, globe2",
           "name": "earth",
           "id": 202,
-          "order": 29,
-          "prevSize": 32,
-          "code": 59850,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "link, chain",
@@ -15173,10 +15145,7 @@
           "ligatures": "wondering, emoticon29",
           "name": "wondering",
           "id": 251,
-          "order": 25,
-          "prevSize": 32,
-          "code": 59899,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "wondering2, emoticon30",
@@ -15266,10 +15235,7 @@
           "ligatures": "plus, add",
           "name": "plus",
           "id": 266,
-          "order": 31,
-          "prevSize": 32,
-          "code": 59914,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "minus, subtract",
@@ -15281,10 +15247,7 @@
           "ligatures": "info, information",
           "name": "info",
           "id": 268,
-          "order": 22,
-          "prevSize": 32,
-          "code": 59916,
-          "tempChar": ""
+          "order": 0
         },
         {
           "ligatures": "cancel-circle, close",
@@ -16055,7 +16018,7 @@
           "order": 13,
           "prevSize": 32,
           "code": 60044,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "google-plus3, brand7",
@@ -16088,7 +16051,7 @@
           "order": 12,
           "prevSize": 32,
           "code": 60049,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "instagram, brand12",
@@ -16121,7 +16084,7 @@
           "order": 8,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -16166,7 +16129,7 @@
           "order": 9,
           "prevSize": 32,
           "code": 60061,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "youtube2, brand22",
@@ -16283,7 +16246,7 @@
           "order": 16,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -16412,7 +16375,7 @@
           "order": 15,
           "prevSize": 32,
           "code": 60101,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "reddit, brand61",
@@ -16439,7 +16402,7 @@
           "order": 11,
           "prevSize": 32,
           "code": 60105,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "linkedin2, brand65",
@@ -16589,7 +16552,10 @@
           "ligatures": "file-word, file12",
           "name": "file-word",
           "id": 481,
-          "order": 0
+          "order": 17,
+          "prevSize": 32,
+          "code": 60129,
+          "tempChar": ""
         },
         {
           "ligatures": "file-excel, file13",
@@ -16610,7 +16576,7 @@
           "order": 14,
           "prevSize": 32,
           "code": 60132,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "html-five2, w3c2",
@@ -25122,6 +25088,7 @@
       ]
     }
   ],
+  "uid": -1,
   "preferences": {
     "showGlyphs": true,
     "showCodes": true,
@@ -25158,6 +25125,5 @@
       "bgColor": 16777215
     },
     "historySize": 100
-  },
-  "uid": -1
+  }
 }

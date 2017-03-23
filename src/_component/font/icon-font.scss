@@ -27,6 +27,10 @@
 }
 
 // List of font icons
+.resume-icon-file-word:before {
+  content: "\eae1";
+}
+
 .resume-icon-home:before {
   content: "\e900";
 }
@@ -34,57 +38,75 @@
 .resume-icon-map2:before {
   content: "\e94c";
 }
+
 .resume-icon-calendar:before {
   content: "\e953";
 }
+
 .resume-icon-hammer:before {
   content: "\e996";
 }
+
 .resume-icon-trophy:before {
   content: "\e99e";
 }
+
 .resume-icon-briefcase:before {
   content: "\e9ae";
 }
+
 .resume-icon-airplane:before {
   content: "\e9af";
 }
+
 .resume-icon-menu3:before {
   content: "\e9bf";
 }
+
 .resume-icon-earth:before {
   content: "\e9ca";
 }
+
 .resume-icon-wondering:before {
   content: "\e9fb";
 }
+
 .resume-icon-plus:before {
   content: "\ea0a";
 }
+
 .resume-icon-info:before {
   content: "\ea0c";
 }
+
 .resume-icon-google-plus2:before {
   content: "\ea8c";
 }
+
 .resume-icon-facebook2:before {
   content: "\ea91";
 }
+
 .resume-icon-twitter:before {
   content: "\ea96";
 }
+
 .resume-icon-youtube:before {
   content: "\ea9d";
 }
+
 .resume-icon-github:before {
   content: "\eab0";
 }
+
 .resume-icon-skype:before {
   content: "\eac5";
 }
+
 .resume-icon-linkedin:before {
   content: "\eac9";
 }
+
 .resume-icon-html-five:before {
   content: "\eae4";
 }
