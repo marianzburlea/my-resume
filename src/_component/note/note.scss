@@ -1,6 +1,8 @@
 $class: 'note';
 
 .#{$class}-label {
+  @extend %noselect;
+
   display: none;
   position: fixed;
   top: 1rem;
