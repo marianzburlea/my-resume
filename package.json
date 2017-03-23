@@ -27,7 +27,7 @@
       "cssInline": "inline**.{scss,sass}",
       "css": {
         "inline": true,
-        "external": true
+        "external": false
       }
     }
   },
