@@ -1,0 +1,35 @@
+$class: 'note';
+
+.#{$class} {
+  @extend %section;
+  display: none;
+}
+
+.#{$class}-intro {
+  font-size: 1.3rem;
+}
+
+.#{$class}-header {
+  font-size: 1.8rem;
+  line-height: 2.5;
+}
+
+.#{$class}-list {
+  list-style-type: disc;
+}
+
+@media all and (orientation: landscape) {
+  .#{$class} {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: radial-gradient(ellipse, $color-manatee, $color-fiord);
+    color: $color-white;
+  }
+}
