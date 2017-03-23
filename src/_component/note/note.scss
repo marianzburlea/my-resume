@@ -1,8 +1,54 @@
 $class: 'note';
 
+.#{$class}-label {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: $color-fiord;
+  color: $color-white;
+  border: 0.1rem solid $color-white;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+.#{$class}-label-no,
+.#{$class}-label-yes {
+  cursor: pointer;
+}
+
+.#{$class}-label-no {
+  display: inherit;
+}
+
+.#{$class}-label-yes {
+  display: none;
+}
+
+.#{$class}-toggle-checkbox {
+  display: none;
+}
+
+.#{$class}-toggle-checkbox:checked + .#{$class} {
+  top: -100%;
+}
+
+.#{$class}-toggle-checkbox:checked + .#{$class} + .#{$class}-label {
+  .#{$class}-label-no {
+    display: none;
+  }
+  .#{$class}-label-yes {
+    display: inherit;
+  }
+}
+
+
 .#{$class} {
   @extend %section;
-  display: none;
+
+  top: -100%;
+  position: fixed;
+  transition: 0.5s;
 }
 
 .#{$class}-intro {
@@ -19,6 +65,10 @@ $class: 'note';
 }
 
 @media all and (orientation: landscape) {
+  .#{$class}-label {
+    display: inherit;
+  }
+
   .#{$class} {
     position: fixed;
     display: flex;
