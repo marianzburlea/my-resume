@@ -1,7 +1,12 @@
 .note
-  .note-intro You screen is in landscape mode
-  .note-header To view the website at its best:
-  ul.note-list
-    li.note-item rotate your device in portratit
-    li.note-item resize your browser to portratit
-    li.note-item ignore all the above and hide this message
+  input.note-toggle-checkbox(type="checkbox", id="note-toggle")
+  label.note-label(for="note-toggle")
+    span.note-label-yes Show note
+    span.note-label-no Hide note
+  .note-wrapper
+    .note-intro You screen is in landscape mode
+    .note-header To view the website at its best:
+    ul.note-list
+      li.note-item rotate your device in portratit
+      li.note-item resize your browser to portratit
+      li.note-item ignore all the above and hide this message
