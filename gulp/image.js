@@ -1,11 +1,7 @@
 'use strict';
 
 import path from 'path';
-import pngquant from 'imagemin-pngquant';
-import jpegtran from 'imagemin-jpegtran';
-import optipng from 'imagemin-optipng';
-import gifsicle from 'imagemin-gifsicle';
-import svgo from 'imagemin-svgo';
+import jpegoptim from 'imagemin-jpegoptim';
 
 const image = ({
   gulp,
@@ -25,22 +21,20 @@ const image = ({
         dir.image,
         '**/*.{jpg,jpeg,gif,svg,png}'
       ))
-      .pipe(plugins.changed(dest))
+      // .pipe(plugins.changed(dest))
+      // .pipe(plugins.debug())
       .pipe(plugins.if(
         args.production,
-        plugins.imagemin({
-          progressive: true,
-          optimizationLevel: 7,
-          svgoPlugins: [{
-            removeViewBox: false
-          }],
-          use: [
-            pngquant({
-              speed: 10
-            }),
-            jpegtran(), optipng(), gifsicle()
-          ]
+        plugins.imagemin([
+        	plugins.imagemin.gifsicle({interlaced: true}),
+        	// plugins.imagemin.jpegtran({progressive: true}),
+        	jpegoptim({progressive: true, max: 85}),
+        	plugins.imagemin.optipng({optimizationLevel: 5}),
+        	plugins.imagemin.svgo({plugins: [{removeViewBox: true}]})
+        ],{
+          verbose: true
         })
+
       ))
       .pipe(gulp.dest(dest));
   });
