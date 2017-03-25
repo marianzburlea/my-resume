@@ -161,7 +161,22 @@
         "type": "list",
         "list": [
           {
-            "date": "2015 Oct – present",
+            "date": "2016 Sep - present",
+            "jobTitle": "Senior Front-End Developer",
+            "company": "RMA Consulting (banking sector)",
+            "summary": "Restructure and rebuild the front end solution migrating from Ember to AngularJS and AngularJS 2 feature based. Other technologies used: sass, gulp, node, npm, typescript etc.",
+            "responsibility": [
+              "Restructure Working with clients and UX designers to deliver working software to business",
+              "Design and implement React/Redux and Dojo applications",
+              "Champion new technologies and techniques",
+              "Provide support and mentoring for the teams members",
+              "Technical exploration: Prototyping and Spiking activities",
+              "Delivering working software in agile teams",
+              "Technology evaluation, estimation and technical documentation",
+              "Solution architecture and implementation"]
+          },
+          {
+            "date": "2015 Oct – 2016 Sep",
             "jobTitle": "Senior Front-End Developer",
             "company": "Argus Software",
             "summary": "Restructure and rebuild the front end solution migrating from Ember to AngularJS and AngularJS 2 feature based. Other technologies used: sass, gulp, node, npm, typescript etc.",
@@ -172,7 +187,6 @@
               "Attend code reviews and provide knowledge and support for creating a better code base",
               "Research and promote cutting edge technologies and design patterns like Angular 2, TypeScript, Redux, Reactive Programming, ES6, build and deploy tools etc",
               "Create a positive atmosphere and a touch of amusement occasionally to bring members closer together"
-
             ]
           },
           {
