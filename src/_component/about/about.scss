@@ -4,7 +4,8 @@ $class: 'about';
 
 .#{$class} {
   // Set some whitespace between content and edges
-  @extend %section-container;
+  // @extend %section-container;
+  background-image: radial-gradient(ellipse, $color-geraldine, $color-terracotta);
 }
 
 %avatar-common {
@@ -17,11 +18,15 @@ $class: 'about';
 
 .#{$class}-section-title {
   @extend %section-title;
+
+  color: $color-white;
+  padding: 1rem 2rem;
 }
 
 .#{$class}-link {
   border: 0.1rem solid $color-lily;
   color: $color-gumbo;
+  background-color: $color-white;
   padding: 1rem;
   width: 80%;
   margin: 1rem auto;
@@ -51,7 +56,7 @@ $class: 'about';
   // and use width instead of max-width
   width: 100%;
   // set the border to white so it blends with the background
-  border: 0.5rem solid $color-white;
+  border: 0.5rem solid $color-terracotta;
 }
 
 .#{$class}-avatar-wrapper {
@@ -64,7 +69,34 @@ $class: 'about';
   // it to center (like text-align: center)
   margin: 1rem auto;
   // and set the color to contrast with the background
-  border: 0.5rem solid $color-gumbo;
+  border: 0.5rem solid transparentize($color-white, 0.7);
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: '';
+    left: -1rem;
+    top: -1rem;
+    bottom: -1rem;
+    right: -1rem;
+    // width: 100%;
+    // height: 100%;
+    border-radius: 50%;
+    border: 0.5rem solid $color-terracotta;
+  }
+
+  &:after {
+    position: absolute;
+    content: '';
+    left: -1.5rem;
+    top: -1.5rem;
+    bottom: -1.5rem;
+    right: -1.5rem;
+    // width: 100%;
+    // height: 100%;
+    border-radius: 50%;
+    border: 0.5rem solid transparentize($color-white, 0.7);
+  }
 }
 
 .#{$class}-title {
@@ -76,6 +108,7 @@ $class: 'about';
   text-align: center;
   // and increase the white space on top and bottom
   padding: 2rem 0 1rem;
+  color: $color-white;
 }
 
 .#{$class}-paragraph {
@@ -87,7 +120,7 @@ $class: 'about';
   // all the way to the right margin
   text-align: justify;
   // and increase the top and bottom white space
-  padding: 0.7rem 0;
+  padding: 0.7rem 2rem;
   // and indent the first line
   text-indent: 2rem;
 }
