@@ -1,11 +1,12 @@
 $class: 'experience';
 
 .#{$class} {
-  @extend %section-container;
+  // @extend %section-container;
 }
 
 .#{$class}-section-title {
   @extend %section-title;
+  padding: 1rem 2rem;
 }
 
 .#{$class}-list-header {
