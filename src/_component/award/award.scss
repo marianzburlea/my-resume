@@ -80,17 +80,17 @@ $class: 'award-card';
   }
 
   &:nth-child(1) > .#{$class}-icon {
-    background-color: $color-fiord;
+    background-color: $color-pelorous;
   }
   &:nth-child(2) > .#{$class}-icon {
-    background-color: $color-lily;
+    background-color: $color-charm;
   }
 
   &:nth-child(3) > .#{$class}-icon {
-    background-color: $color-periwinkle-gray;
+    background-color: $color-affair;
   }
 
   &:nth-child(4) > .#{$class}-icon {
-    background-color: $color-manatee;
+    background-color: $color-confetti;
   }
 }
