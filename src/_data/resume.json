@@ -36,6 +36,11 @@
           "icon": "resume-icon-wondering"
         },
         {
+          "label": "award",
+          "url": "award",
+          "icon": "resume-icon-trophy"
+        },
+        {
           "label": "experience",
           "url": "experience",
           "icon": "resume-icon-airplane"
