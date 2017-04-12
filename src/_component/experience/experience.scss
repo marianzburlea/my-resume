@@ -13,9 +13,9 @@ $class: 'experience';
   // make the list header full width
   display: block;
   // and increase a bit the font size
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   // and create some white space between text and margins
-  padding: 1.5rem;
+  padding: 1rem;
   // and set the background colour
   background-color: $color-terracotta;
   // and set the text color to be in contrast with the color-lily
@@ -26,13 +26,19 @@ $class: 'experience';
   // and set the border bottom
   border-bottom: 0.1rem solid $color-geraldine;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   // and remove the border from the last occurence
   &:last-of-type {
     border-bottom: none;
   }
 
   .resume-icon-plus {
-    float: right;
+    font-size: 2rem;
+    padding: 1rem;
+    display: inline-block;
   }
 }
 
