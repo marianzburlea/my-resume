@@ -1,4 +1,20 @@
-$class: 'about-card';
+$class: 'award';
+
+.#{$class} {
+  // Set some whitespace between content and edges
+  @extend %section-container;
+  padding: 0;
+  // background-image: radial-gradient(ellipse, $color-geraldine, $color-terracotta);
+}
+
+.#{$class}-section-title {
+  @extend %section-title;
+
+  color: $color-periwinkle-gray;
+  padding: 1rem 2rem;
+}
+
+$class: 'award-card';
 
 .#{$class} {
   // Create a rounded border
@@ -21,11 +37,9 @@ $class: 'about-card';
 // about-card-item is the element in each of the
 // award list
 .#{$class}-item {
-  // set width to 85% to play with the amount of text
-  // that gets to be on each line
-  width: 85%;
-  // and position it to center
-  margin: 0 auto;
+  margin: 0 2rem;
+  // position it to left
+  text-align: left;
 }
 
 .#{$class}-title {
@@ -34,7 +48,7 @@ $class: 'about-card';
 
 .#{$class}-icon {
   // and allow some whitespace in each about-card child
-  padding: 1.5rem;
+  padding: 2.5rem;
 }
 
 .#{$class}-description {
@@ -46,7 +60,7 @@ $class: 'about-card';
 .#{$class}-location,
 .#{$class}-date {
   // match the style of the parent element
-  border-bottom: 0.1rem solid $color-fiord;
+  border-top: 0.1rem solid $color-fiord;
   // and set the text to be centered
   text-align: center;
   // and set the font size as the one of the paragraph
@@ -62,21 +76,21 @@ $class: 'about-card';
 
   // remove the border of the last element
   &:last-child {
-    border-bottom: none;
+    border-bottom: 0.1rem solid $color-fiord;
   }
 
-  &:nth-child(1) > .about-card-icon {
+  &:nth-child(1) > .#{$class}-icon {
     background-color: $color-fiord;
   }
-  &:nth-child(2) > .about-card-icon {
+  &:nth-child(2) > .#{$class}-icon {
     background-color: $color-lily;
   }
 
-  &:nth-child(3) > .about-card-icon {
+  &:nth-child(3) > .#{$class}-icon {
     background-color: $color-periwinkle-gray;
   }
 
-  &:nth-child(4) > .about-card-icon {
+  &:nth-child(4) > .#{$class}-icon {
     background-color: $color-manatee;
   }
 }

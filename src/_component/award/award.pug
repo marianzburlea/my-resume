@@ -1,0 +1,39 @@
+#award
+.award
+  .award-section-title ##{section.award.title}
+  .award-wrapper
+    //- Loop through each award content in the main section
+    //- and render content based on the value of type property
+    each card in section.award.content
+      //- Loop through each of the card collection
+      //- and render as many paragraphs as available
+      //- award card list
+      .award-card
+        //- award card list item
+        h3.award-card-title
+          //- set the icon symbol for title
+          span.award-card-icon
+            span.resume-icon-trophy
+          //- print item content
+          span.award-card-item #{card.title}
+        //- award card list item
+        p.award-card-description
+          //- set the icon symbol for description
+          span.award-card-icon
+            span.resume-icon-info
+          //- print item content
+          span.award-card-item #{card.description}
+        //- award card list item
+        p.award-card-location
+          //- set the icon symbol for location
+          span.award-card-icon
+            span.resume-icon-map2
+          //- print item content
+          span.award-card-item #{card.location}
+        //- award card list item
+        p.award-card-date
+          //- set the icon symbol for date
+          span.award-card-icon
+            span.resume-icon-calendar
+          //- print item content
+          span.award-card-item #{card.date}

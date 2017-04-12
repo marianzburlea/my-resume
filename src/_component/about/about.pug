@@ -19,12 +19,6 @@
           //- and render as many paragraphs as available
           each paragraph in content.text
             p.about-paragraph=paragraph
-        //- Check if it is of card type
-        if content.type === 'card'
-          h2.about-title=content.title
-          //- Loop through each of the card collection
-          //- and render as many paragraphs as available
-          include about-card
         if content.type === 'link'
           h2.about-title=content.title
           //- Loop through each of the link collection

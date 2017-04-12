@@ -325,23 +325,6 @@
           ]
         }
         ,{
-          "type": "card",
-          "title": "Awards",
-          "card": [{
-              "title": "Best 30s elevator speed speech",
-              "description": "I’ve won the 1st place twice and 2nd place once.",
-              "location": "Google Campus – London",
-              "date": "2014"
-            },
-            {
-              "title": "Best web site for president elections",
-              "description": "I've on the best built website for the second runner in the presidential election campaign.",
-              "location": "Constanta / Romania",
-              "date": "2001"
-            }
-          ]
-        }
-        ,{
           "type": "text",
           "title": "Achievement",
           "text": [
@@ -363,6 +346,23 @@
               "text": "Click to download the Microsoft Word version"
             }
           ]
+        }
+      ]
+    },
+    "award": {
+      "title": "awards",
+      "content": [
+        {
+          "title": "Best 30s elevator speed speech",
+          "description": "I’ve won the 1st place twice and 2nd place once.",
+          "location": "Google Campus – London",
+          "date": "2014"
+        },
+        {
+          "title": "Best web site for president elections",
+          "description": "I've on the best built website for the second runner in the presidential election campaign.",
+          "location": "Constanta / Romania",
+          "date": "2001"
         }
       ]
     },
