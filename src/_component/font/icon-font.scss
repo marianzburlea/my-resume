@@ -2,9 +2,9 @@
 @font-face {
   font-family: 'my-resume';
   src:
-    url('asset/font/my-resume.ttf?mndm3t12') format('truetype'),
-    url('asset/font/my-resume.woff?mndm3t12') format('woff'),
-    url('asset/font/my-resume.svg?mndm3t12#my-resume') format('svg');
+    url('asset/font/my-resume.ttf?mndm3t122') format('truetype'),
+    url('asset/font/my-resume.woff?mndm3t122') format('woff'),
+    url('asset/font/my-resume.svg?mndm3t122#my-resume') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -109,4 +109,7 @@
 
 .resume-icon-html-five:before {
   content: "\eae4";
+}
+.resume-icon-stackoverflow:before {
+  content: "\ead0";
 }
