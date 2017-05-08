@@ -195,6 +195,21 @@
             ]
           },
           {
+            "date": "2015 Jan – present",
+            "jobTitle": "CTO",
+            "company": "BitBee Ltd",
+            "summary": "Research and develop with Front End technologies like React, Angular",
+            "responsibility": [
+              "Build an online course platform for students and teachers",
+              "Build project starter for rapid project prototyping using Pug and Sass to deliver pure CSS & HTML projects",
+              "Build projects that are quicker and faster to load and render than all of the other tested website (according to pingdom tools)",
+              "Build projects that score 100/100 on Google page speed on both mobile and desktop",
+              "Build \"my resume\" and \"quick blog\" for beginners",
+              "Build a pure CSS & HTML game with lots of animations, score and user interaction",
+              "Train apprentices into Junior web develoeprs"
+            ]
+          },
+          {
             "date": "2014 Oct – 2015 Oct",
             "jobTitle": "Senior UI Developer",
             "company": "Direct Line Group",
