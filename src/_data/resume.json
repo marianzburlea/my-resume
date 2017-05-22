@@ -361,9 +361,14 @@
               "text": "Click to visit the GitHub project source"
             }
             ,{
+              "url": "asset/doc/CONTRACTS ONLY - resume Marian Zburlea - one page.docx",
+              "icon": "file-word",
+              "text": "Click to download the \"one page\" Microsoft Word version"
+            }
+            ,{
               "url": "asset/doc/CONTRACTS ONLY - resume Marian Zburlea.docx",
               "icon": "file-word",
-              "text": "Click to download the Microsoft Word version"
+              "text": "Click to download the \"full experience\" Microsoft Word version"
             }
           ]
         }
