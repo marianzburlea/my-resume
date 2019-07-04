@@ -1,4 +1,7 @@
 # Pug starter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/marianzburlea/my-resume.svg)](https://greenkeeper.io/)
+
 Starter package for pug (former jade) template based projects.
 ## Prerequisites
 The project requires NodeJS v.4+ and gulp v4+
